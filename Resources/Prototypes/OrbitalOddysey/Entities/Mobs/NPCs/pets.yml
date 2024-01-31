@@ -1,0 +1,48 @@
+- type: entity
+  name: Гамля горничная
+  parent: MobHamster
+  id: MobHamsterHamletMaid
+  description: Красавица из хомячьего рода, она готова пойти на все ради блага станции и её обитателей, она исполнит любой ваш каприз, но так же - хомяк горничная лучшая девочка
+  components:
+  - type: Sprite
+    drawdepth: SmallMobs
+    sprite: OrbitalOddysey/Mobs/Pets/hamlet_maid.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base", "movement"]
+      state: hamster-maid-0
+  - type: SpriteMovement
+    movementLayers:
+      movement:
+        state: hamster-maid-moving-0
+    noMovementLayers:
+      movement:
+        state: hamster-maid-0
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: ghost-role-information-hamlet-maid-name
+    description: ghost-role-information-hamlet-maid-description
+  - type: GhostTakeoverAvailable
+  - type: InteractionPopup
+    successChance: 1
+    interactSuccessString: petting-success-hamster
+    interactFailureString: petting-failure-hamster
+    interactSuccessSpawn: EffectHearts
+    interactSuccessSound:
+      path: /Audio/Animals/fox_squeak.ogg
+  - type: Butcherable
+    spawned:
+    - id: FoodMeat
+      amount: 1
+  - type: Grammar
+    attributes:
+      proper: true
+      gender: female
+  - type: Tag
+    tags:
+    - CannotSuicide
+    - Hamster
+    - VimPilot
+  - type: StealTarget
+    stealGroup: AnimalHamlet
