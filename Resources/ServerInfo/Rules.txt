@@ -1,115 +1,238 @@
-[color=#ff0000]YOU MUST BE AT LEAST 16 YEARS OF AGE TO PLAY ON WIZARD'S DEN SERVERS. ANY USERS SUSPECTED OF BEING UNDER 16 YEARS OF AGE WILL BE BANNED UNTIL THEY ARE OF AGE.[/color]
+[color=#ff0000]**ВАМ ДОЛЖНО БЫТЬ НЕ МОЛОЖЕ 18 ЛЕТ ДЛЯ ИГРЫ НА СЕРВЕРЕ Orbital Odyssey. ПОЛЬЗОВАТЕЛИ, ПОДОЗРЕВАЕМЫЕ В НЕДОСТАТКЕ 18 ЛЕТ, БУДУТ ЗАБЛОКИРОВАНЫ ДО ДОСТИЖЕНИЯ СООТВЕТСТВУЮЩЕГО ВОЗРАСТА.**[/color]
 
-[color=#ff0000]DISCONNECTING FROM OR IGNORING/EVADING ADMIN-HELPS WILL RESULT IN AN APPEAL ONLY BAN.[/color]
+[color=#ff0000]ОТКЛЮЧЕНИЕ ОТ ИЛИ ИГНОРИРОВАНИЕ/УКЛОНЕНИЕ ОТ ПОМОЩИ АДМИНИСТРАТОРОВ ПРИВЕДЕТ К БЛОКИРОВКЕ, ДЛЯ СНЯТИЯ С КОТОРОЙ ТРЕБУЕТСЯ ПИСЬМЕННОЕ АПЕЛЛЯЦИОННОЕ ЗАЯВЛЕНИЕ.[/color]
 
-This is the "short" form of the rules, which has all the information any regular player should need. You can find the "long" form of the rules with more examples & clarifications of any ambiguity on our wiki at [color=#a4885c]wiki.spacestation14.io[/color], should you need it.
+[color=#a4885c]01.[/color] [color=#a4885c]Золотое Правило.[/color] Администраторы могут применять свое усмотрение к правилам. Если вы ищете щели в правилах или пытаетесь избежать их, вы будете удалены. Администраторы несут ответственность за использование этого привилегированного положения.
 
-[color=#ff0000]Recent Changes[/color]
-    - Revolutionary rules have been added (#12, #15)
-    - Silicon rules have been added (#22)
-    - Security/command rules have been updated to address forced borging (#21)
+[color=#ff0000]ПРАВИЛА С НУЛЕВОЙ ТОЛЕРАНТНОСТЬЮ[/color]
 
-[color=#a4885c]01.[/color] [color=#a4885c]The[/color] [color=#ffd700]Golden[/color] [color=#a4885c]Rule.[/color] Admins may excercise discretion with rules as they see fit. If you rule lawyer or line skirt, you will get removed. Admins will answer for use of this privilege.
+[color=#a4885c]02.[/color] Абсолютно запрещено использование выражений ненависти, оскорблений, биготности, расизма, сексизма, дискриминации по признакам внутриигровых рас и любых подобных проявлений. (ПРИВЕДЕНИЕ К ПЕРМАБАНУ)
 
-[color=#ff0000]ZERO TOLERANCE RULES[/color]
+[color=#a4885c]03.[/color] Абсолютно запрещены Эротическая Ролевая Игра (ERP) или сексуальный контент, включая прямые или косвенные упоминания сексуального поведения или действий. (ПРИВЕДЕНИЕ К ПЕРМАБАНУ) (Допускаются оскорбления, например: "Ты идиот", но не утрируйте)
 
-[color=#a4885c]02.[/color] Absolutely no hate speech, slurs, bigotry, racism, specism (demeaning other characters in-game due to their in-game race), sexism, disability-related or anything even remotely similar. (YOU WILL GET PERMABANNED)
+[color=#a4885c]04.[/color] Не передавайте внутриигровую информацию через внешние методы (например, разговор в Discord с другими активными пользователями или разговор с братом через комнату, если вы оба играете). Это называется "Метакомминг". Администраторы не могут контролировать метакоммуникации, их считают злоупотреблением, и все участники получат пермабан.
 
-[color=#a4885c]03.[/color] Absolutely no Erotic Roleplay (ERP) or sexual content, including direct or indirect mentions of sexual behavior or actions. (YOU WILL GET PERMABANNED) (Leeway is given to insults, ex: 'You are a dickhead', do not push it)
+[color=#a4885c]05.[/color] Попытка уклонения от блокировок в игре приведет к автоматическому пермабану, который можно обжаловать только через шесть месяцев и только с гарантией хорошего поведения от другого сервера SS13/SS14. Попытка уклонения от блокировки на профессию также приведет к пермабану только по апелляции. (ВАС ЗАБАНЯТ БОЛЕЕ СУРОВО)
 
-[color=#a4885c]04.[/color] Don't communicate in-game/in-character information through methods outside of the game (such as talking in Discord with other users actively playing or by talking to your sibling across the room while you are both playing). This is referred to as "Metacomming". Adminstrators cannot police metacommunications, we must assume it is being abused. (ALL INVOLVED WILL GET PERMABANNED)
+[color=#ff0000]ОБЩИЕ ЭТИКЕТ И ПРАВИЛА ИГРЫ[/color]
 
-[color=#a4885c]05.[/color] Attempting to evade game bans will result in an automatic appeal-only permanent ban that is only appealable after six months and only with a voucher of good behavior from another SS13/SS14 server. Attempting to evade job bans will result in an appeal-only permanent ban. (YOU WILL GET BANNED MUCH WORSE THAN YOU ALREADY WERE)
+[color=#a4885c]06.[/color] Эти серверы на английском языке. Общайтесь только на английском языке внутри и вне персонажа.
 
-[color=#ff0000]GENERAL ETIQUETTE[/color]
+[color=#a4885c]07.[/color] Не используйте эксплойты или внешние программы для получения преимущества или нарушения/падения раунда/сервера. Это включает в себя автокликеры и скрипты для автоматизации игры или уклонения от обнаружения AFK. Намеренные попытки вызвать задержки/падение сервера приведут к немедленному пермабану только по апелляции.
 
-[color=#a4885c]06.[/color] These are English servers. Speak only English in IC and OOC.
+[color=#a4885c]08.[/color] Не используйте несколько аккаунтов SS14 для игры (называется "мульти-ключинг"). Пользователи, знающие о использовании нескольких аккаунтов SS14, будут забанены.
 
-[color=#a4885c]07.[/color] Don't use exploits or external programs to play, gain an advantage, or disrupt/crash the round/server. This includes autoclickers and scripts to automate the game or evade AFK detection. Intentionally attempting to lag/crash the server will result in an immediate appeal-only ban.
+[color=#a4885c]09.[/color] Не игнорируйте или злоупотребляйте помощью администратора, заливая ее мусором, проверяя наличие администраторов перед описанием проблемы (например: "привет?", "есть админы?"), использованием ее как чата или отправкой бессодержательных сообщений. Враждебность к администраторам в ретрансляторе вероятно приведет к вашему удалению. Все запросы администраторской помощи направляются в Discord SS14.
 
-[color=#a4885c]08.[/color] Don't use multiple SS14 accounts to play (referred to as "multi-keying"). Users knowingly using multiple SS14 accounts will have all of their accounts banned.
+[color=#ff0000]ПРАВИЛА В ИГРЕ И РОЛЕВОЙ ИГРЫ[/color]
 
-[color=#a4885c]09.[/color] Do not ignore the admin help relay or abuse it by flooding it with garbage, checking for admins before stating a problem (ex: "hello?", "any admins?"), using it as a chatroom, or sending messages of no substance. Hostility to administators in the relay will likely result in your removal. All admin helps are sent to the SS14 Discord.
+[color=#a4885c]10.[/color] Выберите реалистичное имя, которое могло бы быть в свидетельстве о рождении, с указанием хотя бы имени и фамилии (дается уступка для Клоунов, Мимов и представителей не-человеческих рас).
+    - Запрещены имена знаменитых или вымышленных персонажей, а также имена, пародирующие их. Нельзя использовать имена, играющие на фонетических ассоциациях (например: "Майк Окслонг", "Бен Довер", "Дикси Нормус"). Они также являются крайне избитыми.
 
-[color=#ff0000]IN GAME & ROLEPLAY RULES[/color]
+[color=#a4885c]11.[/color] Ведите себя как настоящий человек на космической станции в условиях низкоролевой игры (LRP). Не используйте аббревиатуры или эмодзи внутри игры, и не упоминайте OOC вещи, такие как админы в игре. Не угрожайте игрокам, заявляя, что вы их вызываете администраторам. Не используйте эмоуты для обхода фильтров речи или молчания. Вам не требуется писать бэкстори или следовать строгим процедурам; однако от вас ожидается хотя бы некоторое усилие по воплощению своей роли.
 
-[color=#a4885c]10.[/color] Pick a realistic name that could appear on a birth certificate with at least a first and last name (leeway is given to this for Clowns, Mimes, and non-human races).
-    - Names of notable famous or fictional persons or names that resemble/parody them are strictly forbidden. You are not clever if you slightly change a famous name around. Terrible names open you up to being politely reminded to change it, smited, or instantly banned, depending on severity.
-    - Names resulting in inappropriate phonetic play-on-words are forbidden (ex: "Mike Oxlong", "Ben Dover", "Dixie Normus"). They are also extremely overdone.
+[color=#a4885c]12.[/color] Не будьте недружелюбными. Вы играете в многопользовательскую игру с другими людьми, которые также хотят наслаждаться игрой.
+    - [color=#ff0000]Станция прибытия, шаттл и общая зона станции прибытия полностью запрещены для любой враждебной активности, включая активность антагонистов. Атака на новых игроков в этих зонах или повреждение/саботаж этих зон строго запрещены.[/color]
+    - Не наносите умышленный вред жизни других игроков для своего развлечения.
+    - [color=#ff0000]РАУНД НЕ ЗАКОНЧЕН, ПОКА НЕ ПОЯВИТСЯ СВОДКА О КОНЦЕ РАУНДА. УБИЙСТВО КОГО-ЛИБО БЕЗ ПРИЧИНЫ ДО ЭТОГО БУДЕТ РАССМОТРЕНО СООТВЕТСТВУЮЩИМ ОБРАЗОМ.[/color]
+    - Антагонисты имеют большие полномочия с этим правилом и могут убивать/саботировать, как им угодно. Однако, если ваше поведение ухудшает опыт для большинства сервера, вам скажут прекратить. Антагонисты все же обычно запрещены от нанесения массового ущерба станции в начале раунда (менее 30 минут) и запрещены от бессмысленного затягивания раунда. Для антагонистических правил смотрите "длинную" форму правил на [color=#a4885c]wiki.spacestation14.io[/color].
 
-[color=#a4885c]11.[/color] Act like an actual human being on a space station in a low-roleplay (LRP) environment. Do not use text speak or emoticons IC, and do not refer to OOC things like admins in-game. Do not threaten players that you are calling the admins on them. Do not use emotes to bypass speech filters or muteness. You are not required to write a backstory or follow strict procedure; however, you are expected to at least make an effort to act like your role.
+[color=#a4885c]13.[/color] Не домогайтесь или не целите в игроков из раунда в раунд за действия в предыдущих раундах или за действия вне игры (называется "Метаграджинг").
+    - Назойливое поведение по IC-причинам в текущем раунде допустимо; делать это через раунды или в роли призрака после того, как они вас убили, нельзя.
 
-[color=#a4885c]12.[/color] Don't be a dick. You are playing a multiplayer game with other people who also want to enjoy the game.
-    - [color=#ff0000]The arrivals station, shuttle, and general arrivals docking area are completely off-limits to any hostile activity, including activity by antagonists. Attacking newly spawned players in these areas or damaging/sabotaging these areas is strictly forbidden.[/color]
-    - Do not intentionally make other players' lives hell for your own amusement.
-    - [color=#ff0000]THE ROUND IS NOT OVER UNTIL THE END-ROUND SUMMARY APPEARS. KILLING SOMEONE FOR NO REASON BEFORE THIS WILL BE HANDLED ACCORDINGLY.[/color]
-    - Antagonists have a lot of leeway with this rule and may kill/sabotage as they see fit, however if your behavior degrades the experience for the majority of the server you will be told to stop. Antagonists are still generally forbidden from causing massive station damage early into the round (less than 30 minutes) and are forbidden from needlessly prolonging rounds. For antagonist specific rules, see the "long" form of the rules at [color=#a4885c]wiki.spacestation14.io[/color].
+[color=#a4885c]14.[/color] Не используйте информацию, полученную извне знаний вашего персонажа, чтобы получить преимущество (называется "Метагейминг").
+    - Использование информации, полученной извне вашего персонального персонажа (например, через наблюдение за призраком, метакоммс или другие способы) для своей выгоды строго запрещено. Вы помните все события до тех пор, пока не потеряете сознание, даже после клонирования. Если вы принимаете роль призрака, если не указано иное, ВЫ НЕ ПОМНИТЕ НИЧЕГО из своей предыдущей жизни.
 
-[color=#a4885c]13.[/color] Don't harass or target players across rounds for actions in prior rounds or for actions outside of the game (this is referred to as "Metagrudging".)
-    - Annoying players for IC reasons in the current round is fine; doing it across rounds or as a ghost role after they kill you is not.
+[color=#a4885c]15.[/color] Соблюдайте правила эскалации и не убивайте кого-то из-за скольжения, используйте здравый смысл. Не создавайте Каргонию.
+    - Вы можете защищать себя в пределах обеспечения своей собственной жизни.
+    - Сотрудники безопасности могут использовать менее смертоносное воздействие для проведения арестов преступников.
+    - Не оставляйте людей умирать, если вы попали в драку, постарайтесь их исцелить или доставить в Медбей.
+    - Администрируйте ситуацию, если считаете, что кто-то переусердствует.
+    - Запрещены стачки отделов, революции (например, Каргония и любые ее вариации), бунты, культы и любые другие подобные действия, строго запрещены. Все игроки, включая антагонистов, кроме революционеров, должны получить разрешение от администратора перед участием в таком поведении (предупреждение: вероятность получения разрешения невелика).
 
-[color=#a4885c]14.[/color] Don't use information gained from outside your character's knowledge to gain an advantage (this is referred to as "Metagaming").
-    - Using information you gain from outside your own character (such as spectating while a ghost, metacomms, or other means) to your advantage is strictly forbidden. You remember all events up until you fall unconscious, even after cloning. If you take a ghost role, unless otherwise stated, you DO NOT REMEMBER ANYTHING from your past life.
+[color=#a4885c]16.[/color] Не покидайте свою роль или сразу не совершайте самоубийство, если вы не получили статус антагониста (называется "Антаг-роллинг") или ролей глав без уведомления своей цепочки командования или администраторов.
+    - Это нечестно по отношению к другим игрокам, которые терпеливо ждут статуса антагониста. Если вы не хотите играть за антагониста или не хотите вызывать конфликт, не выбирайте роли антагониста.
+    - Роли глав персонала помогают развивать раунды. Если вам нужно уйти, сообщите об этом администратору, что вы покидаете свою роль главы. Нет необходимости ждать ответа при админ-хэлпе о том, что вы собираетесь отключиться в качестве главной роли.
 
-[color=#a4885c]15.[/color] Follow escalation rules and don't murder someone for slipping you, use common sense. Do not make Cargonia.
-    - You can defend yourself to the extent of protecting your own life.
-    - Security may use less-lethal force to effect arrests of criminals.
-    - Don't outright leave people to die if you get in a fight, make an effort to heal them or bring them to Medbay.
-    - Adminhelp the situation if you think someone is over-escalating.
-    - Department strikes, revolutions (ex: cargonia and any variation thereof), riots, cults, and any other type of similar largely disruptive behavior are strictly forbidden. Other than for revolutionary antagonists, these activities are strictly forbidden. All players, including antagonists other than revolutionaries, must obtain admin permission before engaging in this behavior (forewarning: you are unlikely to get permission).
+[color=#a4885c]17.[/color] Не торопитесь за или подготавливайте оборудование, не связанное с вашей должностью, без конкретной цели, а лишь "на всякий случай" (называется "Пауэргейминг").
+    - Медицинскому доктору не нужны изолированные перчатки, и Глава персонала не должен давать себе доступ к оружейной, чтобы подхватить пистолет. У вас должна быть реальная причина для необходимости этих вещей.
+    - Не изготавливайте оружие, бомбы или смертельные яды до тех пор, пока у вас нет явной причины для их использования.
+    - Не предварительно скрывайте антагонистические цели или предварительно обеспечивайте их более высоким уровнем безопасности, чем обычно требуется.
+    - Не изготавливайте или не подготавливайте вещи для "конца раунда", когда шаттл пристыкует к Центральному Командованию.
 
-[color=#a4885c]16.[/color] Don't immediately ghost or suicide from your role if you do not get antagonist (referred to as "Antag-rolling") or from head roles without notifying your chain of command or administrators.
-    - This is not fair to other players actually waiting patiently for an antagonist round. Alternatively, if you do not want to play an antagonist or do not want to cause conflict, do not opt-in for antagonist roles.
-    - Head of Staff roles help drive rounds. If you need to leave, please admin-help your role and that you are leaving. There is no need to wait for a reply when admin-helping that you need to disconnect as a head role.
+[color=#a4885c]18.[/color] Сознательное превращение себя в серьезную проблему/раздражение/нарушение для экипажа или других игроков в целом, не являясь антагонистом, запрещено (называется "само-антагинг").
+    - Не открыто пытайтесь сотрудничать с очевидными или известными антагонистами, не являясь антагонистом.
 
-[color=#a4885c]17.[/color] Don't rush for or prepare equipment unrelated to your job for no purpose other then to have it "just in case" (referred to as "Powergaming").
-    - A medical doctor does not need insulated gloves, and the Head of Personnel does not need to give themselves armory access so they can go grab a gun. Have an actual reason for needing these things.
-    - Don't manufacture weapons, bombs, or death poisons before you know of any reason you would need them.
-    - Don't pre-emptively hide antagonist objectives or pre-emptively secure them with higher security then normally required.
-    - Don't manufacture or prepare things for the "end of the round" when the shuttle docks with Central Command.
+[color=#ff0000]ПРАВИЛА БЕЗОПАСНОСТИ И КОМАНДЫ[/color]
+Если вы регулярно играете в роли Службы Безопасности или Команды и дошли до этого места, мы благодарим вас за чтение. Эти правила также распространяются на любого лица, имеющего в руках тазер.
 
-[color=#a4885c]18.[/color] Intentionally making yourself a major problem/annoyance/disruption for the crew or other players at large while not an antagonist is forbidden (referred to as "self-antagging").
-    - Don't openly try to cooperate with obvious or known antagonists as a non-antagonist.
+[color=#a4885c]19.[/color] Не убивайте или не арестовывайте персонажей игроков, если вы не уверены в их виновности.
+    - Если у вас нет доказательств или если вы не были свидетелями преступления, не проводите арест.
 
-[color=#ff0000]SECURITY & COMMAND RULES[/color]
-If you regularly play Security or Command roles and got this far, we applaud you for reading. These rules also apply to any individual who is promoted or is acting in the place of a Security/Command role (unless they are an antagonist).
+[color=#a4885c]20.[/color] Не убивайте или не арестовывайте персонажей игроков за незначительные проступки.
+    - Не используйте летальную силу, чтобы противостоять минорным проступкам.
 
-[color=#a4885c]19.[/color] Command and Security are held to a higher standard of play.
-    - Be competent in your job and department. Failure to know the basics of your department is liable to result in a job ban.
-    - Do not willingly and openly cooperate with terrorists/antagonists. Do not give away your objective items. Some leeway is given to making deals with antagonists if the deal benefits the safety or situation of the station as a whole and not just yourself.
-    - Uphold the Law & maintain order. Do not engage in lawbreaking activity or troublemaker behavior. Security is expected to intervene into criminal activity where possible. Heads of Staff are at minimum expected to report criminal activity to Security.
-    - Do not immediately abandon your position as a Command role and go do whatever you want instead of managing your department/the station. Do not abuse your position or use it to make arbitrary choices to the detriment of the station.
-    - Do not hire random crew to be your bodyguards or promote them to Captain or a Head of Staff at random. If you need bodyguards, talk to your security department. If you need a new Command role, talk to the personnel in that related department.
-    - '''Do not abandon the station during Nuclear Operatives. You are supposed to protect the station, not let operatives kill everyone on it without a fight.'''
+[color=#a4885c]21.[/color] Не игнорируйте доклады или запросы от главы Службы безопасности. Всегда предоставляйте дополнительные доказательства и объяснения, если это необходимо.
+    - Если вы задержали кого-то, предоставьте администратору полные детали о вашем аресте и причине задержания.
 
-[color=#a4885c]20.[/color] Security/Command should try to remain non-lethal and effect arrests, except in the following special circumstances, where they may choose to use lethal force:
-    - Lethal force is used against you (ex: firearms, lasers, disabling/stunning weapons with intent to kill, deadly melee weapons)
-    - Suspect is wearing clothing or showing immediately dangerous equipment only used by enemy agents/antagonists (ex: Syndicate EVA Suit, Bloodred Hardsuit, Holoparasite, C-20R, etc.).
-    - You determine that your life or the life of an innocent is in immediate danger.
-    - The suspect is unable to be safely detained by less-lethal means. This includes suspects who continually resist efforts to be cuffed or continually manages to escape.
-    - If no other reasonable options are readily available and allowing the suspect to continue would be an unreasonable danger to the station/crew.
+[color=#a4885c]22.[/color] Служба Безопасности не должна использовать летальную силу, если ситуация контролируется другим образом.
+    - Прежде чем использовать летальную силу, попробуйте другие методы разрешения ситуации, такие как арест или изоляция.
 
-Security/Command will be expected to answer for use of lethal force. Security/Command will be expected to effect arrests on criminals and prevent them from dying while in custody, even if lethal force is used, unless there is strong reason to believe the criminal is an antagonist. Security/Command is strongly encouraged, but not required, to clone antagonists and effect a permabrigging or other sentence as deemed appropriate.
+[color=#a4885c]23.[/color] Не используйте летальную силу для разрешения мелких споров или оскорблений.
+    - Споры должны разрешаться разумными способами, такими как административные нарушения, а не летальная сила.
 
-[color=#a4885c]21.[/color] Security/Command are expected to protect detainees in their custody to the best of their ability so as long as it does not come to unreasonable risk to themselves, the crew, or the station at large to do so.
-    - Brig times should generally not exceed 10 minutes unless the crime is permabriggable. Repeat offenders or antagonists may be permabrigged.
-    - Security may choose to confiscate dangerous items (weapons, firearms) as well as items used to commission crimes or items that prove problematic in possession of the detainee (tools, insulated gloves, etc.).
-    - Detainees that die in your custody must be cloned unless they have been (legally) executed, suicide, or there is strong reason to believe they are an antagonist.
-    - Executions must be for a permabriggable crime, used only as a last resort, and approved by the Captain/Acting Captain, who will answer for approving it alongside Security's chain of command. Those who willingly attempt to damage/destroy or escape from the permabrig may be executed.
-    - Any prisoner may be borged with their consent. Borging may be offered as an alternative to execution, but cannot be forced if the prisoner is able to consent.
-    - Detainees in the brig have the right to know what they are being charged with, as well as basic medical aid, at least to the point they are no longer at risk of dying.
-    As there is no space law, Security/Command acts to maintain the safety of the station and its inhabitants, as well as Nanotrasen assets.
+[color=#a4885c]24.[/color] Не используйте летальную силу для самозащиты, если другие средства могли бы быть эффективными.
+    - Используйте адекватные средства, чтобы защитить себя, прежде чем прибегать к летальной силе.
 
-[color=#ff0000]SILICON RULES[/color]
-These rules also apply to any individual who is a silicon, including cyborgs and AI. As with other rules, more details are available on our wiki at [color=#a4885c]wiki.spacestation14.io[/color].
+[color=#a4885c]25.[/color] Не применяйте смертельную силу без должных предупреждений или разумных попыток урегулирования ситуации.
+    - Летальная сила должна быть крайней мерой и должна следовать разумным усилиям для урегулирования ситуации.
 
-[color=#a4885c]22.[/color] You must follow your laws
-    - Silicons without any laws are free from any restrictions that would normally be placed by laws, but self-antagging rules still apply unless they are also antagonists.
-    - The order of your laws determines law priority. Law 1 takes priority over laws 2 and 3, and so on.
-    - Each individual silicon must remain consistent in their interpretations of laws through the round.
-    - Any silicon role not following their laws, or having laws that are a danger to the crew or station may be disabled or destroyed. Any silicon role posing a danger or disruption to the crew may be disabled or destroyed if there is no other reasonable and less severe way of dealing with them.
-    - Characters who are turned into cyborgs can remember their former lives, however they are still bound to their laws.
-    - Everyone that the borg's HUD indicates have a job, including passenger, are considered "crewmembers" for the purpose of laws that refer to crewmembers. Borgs may not do anything to remove the indicator from someone, including removing their ID, but someone else removing a crewmember's ID is not crew harm.
-    - "Harm" is at minimum seen as physical violence or damage against someone or something. If the player wishes, they may choose to interpret psychological harm or similar aspects as harm as well. If two actions are likely to cause harm via action or inaction, silicons will be expected to try and pursue the option with the least potential for harm, however silicons instructed to prevent harm are still forbidden from directly causing harm. You can take an action or not act in cases that might result in eventual harm if it minimizes harm, but you cannot do so if it results in immediate harm. Silicons should default to inaction if neither action nor inaction can prevent harm.
-    - When receiving orders or directives from crewmembers and with a law that instructs you must obey, conflicting orders typically defer the choice to the silicon player of which directive you choose to obey if they conflict (taking into account the priorities of your other laws).
-    - Orders to silicons that are clearly unreasonable or obnoxious are a violation of the "Don't be a dick" rule. They can be ignored and can be ahelped.
+[color=#a4885c]26.[/color] Не используйте летальная силу в отношении тех, кто вас атакует с холодным оружием, если вы можете уклониться или использовать несмертельные методы защиты.
+    - Летальная сила должна быть пропорциональной угрозе.
+
+[color=#a4885c]27.[/color] Не используйте летальную силу в отношении тех, кто пытается сбежать, если угрозы для вас больше нет.
+    - Используйте адекватные средства для задержания беглеца, но не убивайте его, если угрозы больше нет.
+
+[color=#a4885c]28.[/color] Не используйте летальную силу в отношении тех, кто пытается похитить вас или вашу собственность.
+    - Снова, используйте адекватные средства для защиты, но не убивайте похитителя, если угрозы больше нет.
+
+[color=#a4885c]29.[/color] Не применяйте летальную силу по приказу администратора, если это явно нарушает правила.
+    - Если администратор призывает вас убить кого-то без веской причины, откажитесь от выполнения приказа и сообщите об этом администратору через админ-хэлп.
+
+[color=#a4885c]30.[/color] Если вы используете смертельную силу, чтобы противостоять угрозе, предоставьте доказательства о том, что угроза была реальной и непосредственной.
+    - Это включает в себя скриншоты чата, записи видео или другие доказательства ситуации.
+
+[color=#a4885c]31.[/color] В случае использования смертельной силы, чтобы предотвратить кражу или угрозу, попробуйте предоставить прежде всего администратору.
+    - Это помогает администратору оценить ситуацию и определить, было ли применение летальной силы оправданным.
+
+[color=#ff0000]ПРАВИЛА ПЕРСОНАЛА КОМАНДЫ[/color]
+Если вы читаете это, играя за кого-то из Глав, мы благодарим вас за вашу игру.
+
+[color=#a4885c]32.[/color] Главы не должны поднимать восстание, стрелять в подчиненных или вести себя антагонистически без уведомления администраторов.
+    - Это создает хаос и ухудшает опыт игры для других.
+
+[color=#a4885c]33.[/color] Не давайте подчиненным смертельные приказы или приказы, которые могут привести к смерти без необходимости.
+    - Запрещены приказы, такие как "Убейте его", если нет четких и объективных причин.
+
+[color=#a4885c]34.[/color] Поддерживайте адекватные наказания для проступков подчиненных. Не предлагайте или не одобряйте смертельные наказания для минорных проступков.
+    - Наказания должны соответствовать совершенным проступкам, и смертельные наказания должны быть заранее согласованы с администраторами.
+
+[color=#a4885c]35.[/color] Главы не должны создавать конфликты без необходимости.
+    - Не провоцируйте стычки с другими членами экипажа или главами без веской причины.
+
+[color=#a4885c]36.[/color] Главы не должны использовать свою власть для личного обогащения, а также для нарушения правил сервера.
+    - Используйте свою власть разумно и в соответствии с целями и правилами сервера.
+
+[color=#a4885c]37.[/color] Главы не должны вмешиваться в следствие или внутренние дела Службы Безопасности без необходимости.
+    - Не давайте приказы, связанные с расследованиями или арестами, если у вас нет конкретных и объективных причин.
+
+[color=#a4885c]38.[/color] Главы не должны использовать свою власть для устранения персонажей игроков, если это не связано с их профессией.
+    - Не убивайте или не увольняйте персонажей игроков без веской причины.
+
+[color=#a4885c]39.[/color] Главы должны предоставлять администраторам подробности о своих действиях и приказах, если те могут повлиять на опыт игры других.
+    - Если ваши действия могут повлиять на опыт игры других, предоставьте администратору детали с вашей точки зрения.
+
+[color=#ff0000]ПРАВИЛА ИГРОКОВ-АНТАГОНИСТОВ[/color]
+Если вы читаете это, играя в роли антагониста, мы благодарим вас за честное прочтение и следование правилам.
+
+[color=#a4885c]40.[/color] Антагонисты не должны устраивать массовую бойню на станции без веской причины.
+    - Случайные убийства и массовые атаки не должны происходить без согласования с администраторами.
+
+[color=#a4885c]41.[/color] Антагонисты должны руководствоваться своими целями и ролью при выполнении своих действий.
+    - Используйте разумные методы для достижения ваших целей, и не действуйте вне своей роли.
+
+[color=#a4885c]42.[/color] Антагонисты не должны взаимодействовать с остальной станцией так, чтобы это сделало раунд неиграбельным для других.
+    - Не вызывайте хаос, который делает игру для остальных невозможной.
+
+[color=#a4885c]43.[/color] Антагонисты должны избегать использования смертельной силы там, где это не необходимо для выполнения их целей.
+    - Используйте минимальное насилие, необходимое для достижения ваших целей.
+
+[color=#a4885c]44.[/color] Антагонисты не должны использовать "гриф", чтобы избежать преследования, наказания или задержания.
+    - Игроки-антагонисты должны действовать в разумных пределах и не должны использовать баги, ошибки в игре или другие недопустимые методы для избежания последствий своих действий.
+
+[color=#a4885c]45.[/color] Антагонисты должны предоставлять разумные средства для выполнения своих целей.
+    - Если вам нужно убить кого-то, предоставьте им шанс уйти, и не используйте неумеренное насилие.
+
+[color=#a4885c]46.[/color] Не устраивайте пожары, взрывы или другие катастрофы, которые могут сделать раунд неиграбельным.
+    - Эти действия должны быть обдуманными и стратегически обоснованными, а не произвольными.
+
+[color=#a4885c]47.[/color] Не убивайте или не домогайтесь персонажей игроков без веской причины.
+    - Антагонисты должны иметь объективные и понятные причины для своих действий.
+
+[color=#a4885c]48.[/color] Антагонисты не должны вмешиваться в следствие, если это не требуется их целями.
+    - Не мешайтесь в расследования, аресты или внутренние дела станции без веской причины.
+
+[color=#a4885c]49.[/color] Антагонисты не должны целенаправленно взаимодействовать с администрацией без разрешения.
+    - Не используйте админ-хэлп или другие каналы общения с администраторами без необходимости.
+
+[color=#a4885c]50.[/color] Антагонисты должны соблюдать ограничения, накладываемые администраторами, и следовать их указаниям.
+    - Если администратор устанавливает ограничения на ваши действия, следуйте им.
+
+[color=#ff0000]ПРАВИЛА ВНУТРЕННИХ КОНФЛИКТОВ И РП[/color]
+Если вы читаете это, это правила касаются вас, независимо от вашей роли.
+
+[color=#a4885c]51.[/color] Не устраивайте внутриигровые конфликты или ссоры, основанные на личных неприязнях.
+    - Решайте свои вопросы вне игры, используя для этого ЛС, дискорд или другие подходящие каналы.
+
+[color=#a4885c]52.[/color] Не приводите внутриигровые проблемы в общий чат, ЛС или другие общедоступные каналы общения.
+    - Решайте конфликты приватно, чтобы не нарушать атмосферу игры для других.
+
+[color=#a4885c]53.[/color] Не используйте метагейм, чтобы воздействовать на внутриигровые отношения.
+    - Информация, полученная вне игры, не должна влиять на ваши действия и решения внутри игры.
+
+[color=#a4885c]54.[/color] Не подделывайте доказательства или исказите факты внутри игры.
+    - Игровые действия должны отражать реальные события в игре.
+
+[color=#a4885c]55.[/color] Не создавайте обманывающие персоналии, чтобы воздействовать на других игроков.
+    - Ваш персонаж должен быть последователен в своих действиях и мотивациях.
+
+[color=#a4885c]56.[/color] Не злоупотребляйте системой жалоб и обращений по внутриигровым проблемам.
+    - Обращайтесь к администраторам только в случаях реального нарушения правил и не злоупотребляйте возможностью жалобы.
+
+[color=#a4885c]57.[/color] Соблюдайте уважение к другим игрокам и их игровому опыту.
+    - Уважайте различные стили игры и персонажей, даже если они не соответствуют вашему представлению об идеальной игре.
+
+[color=#ff0000]ПРАВИЛА ЧАТА И ОБЩЕНИЯ[/color]
+[color=#a4885c]58.[/color] Не использовать чрезмерно мата и нецензурные выражения.
+    - Помните, что сервер предназначен для разнообразной аудитории, и держите общение приемлемым.
+
+[color=#a4885c]59.[/color] Не флудите и не спамьте в чате.
+    - Злоупотребление капсом, повторяющиеся сообщения и другие формы флуда приводят к тому, что чат становится нечитаемым.
+
+[color=#a4885c]60.[/color] Не осуществляйте насмешки, троллинг или другие формы пристаивания в общий чат.
+    - Общение должно быть конструктивным и дружелюбным, чтобы создать положительное впечатление от игры.
+
+[color=#a4885c]61.[/color] Не нарушайте интегритет чата и общения других игроков.
+    - Не разглашайте личную информацию других игроков и не нарушайте их приватность в чате или других каналах общения.
+
+[color=#a4885c]62.[/color] Не оскорбляйте, не домогайтесь и не преследуйте других игроков в чате.
+    - Общение должно быть уважительным и не должно приводить к оскорблениям или конфликтам.
+
+[color=#a4885c]63.[/color] Не рассказывайте или не поощряйте провокационные, неприемлемые или незаконные истории, шутки или комментарии в чате.
+    - Соблюдайте тон и старайтесь избегать тем, которые могут вызвать негативную реакцию.
+
+[color=#a4885c]64.[/color] Не распространяйте дезинформацию в чате или на форумах сервера.
+    - Проверяйте достоверность информации, прежде чем делиться ею, чтобы избежать распространения ложных сведений.
+
+[color=#ff0000]ПРАВИЛА ВЫСКАЗЫВАНИЙ В АДМИНИСТРАЦИЮ[/color]
+[color=#a4885c]65.[/color] Обращайтесь с уважением к администраторам и соблюдайте этикет.
+    - Общение с администраторами должно быть уважительным и конструктивным.
+
+[color=#a4885c]66.[/color] Предоставляйте полную информацию о ситуации, когда обращаетесь с жалобой или запросом в администрацию.
+    - Чем более подробно и точно вы объясните ситуацию, тем быстрее администратор сможет вам помочь.
+
+[color=#a4885c]67.[/color] Не злоупотребляйте системой обращений и жалоб.
+    - Обращайтесь в администрацию только при реальных нарушениях правил и не пытайтесь использовать систему жалоб для мести или злоупотребления.
+
+[color=#a4885c]68.[/color] Не давайте ложные свидетельства или предоставляйте дезинформацию в администрацию.
+    - Информация, предоставленная администраторам, должна быть достоверной и соответствовать реальным событиям в игре.
+
+[color=#a4885c]69.[/color] Соблюдайте терпение и уважение к администраторам, когда они расследуют ситуации.
+    - Администраторы стараются обеспечить справедливость и безопасность на сервере, и ваше терпение и сотрудничество помогут им в этом.
+
+[color=#a4885c]70.[/color] Следуйте указаниям администраторов и соблюдайте их решения.
+    - Если администратор предоставляет указания или принимает решение, следуйте им, чтобы поддерживать порядок и безопасность на сервере.
+
+Эти правила предназначены для обеспечения безопасной и приятной игры для всех участников. Соблюдайте их и помогайте создавать положительное сообщество на сервере. Спасибо за ваше понимание и сотрудничество! Всегда помните, что администраторы находятся здесь, чтобы помочь вам и обеспечить честную и увлекательную игру.
+
+[color=#ff0000]Правила подлежат изменениям и дополнениям, администрация может вносить коррективы по мере необходимости. Игрокам рекомендуется периодически проверять актуальные версии правил.[/color]
