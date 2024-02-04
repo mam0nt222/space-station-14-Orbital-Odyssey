@@ -131,3 +131,31 @@
       strippingWindowPos: 2,5
       dependsOn: outerClothing
       displayName: Suit Storage
+    - name: underpants
+      slotTexture: underpants
+      slotFlags: UNDERPANTS
+      stripTime: 8
+      uiWindowPos: 0,4
+      strippingWindowPos: 0,0
+      displayName: Underpants
+    - name: bra
+      slotTexture: bra
+      slotFlags: BRA
+      stripTime: 8
+      uiWindowPos: 1,4
+      strippingWindowPos: 0,8
+      displayName: Bra
+    - name: underpants
+      slotTexture: underpants
+      slotFlags: UNDERPANTS
+      stripTime: 8
+      uiWindowPos: 0,4
+      strippingWindowPos: 0,0
+      displayName: Underpants
+    - name: bra
+      slotTexture: bra
+      slotFlags: BRA
+      stripTime: 8
+      uiWindowPos: 1,4
+      strippingWindowPos: 0,8
+      displayName: Bra

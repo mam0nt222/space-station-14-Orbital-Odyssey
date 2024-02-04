@@ -44,6 +44,8 @@
         sprite: Backmen/Mobs/Customization/anytaur_masking_helpers.rsi
         state: female_full
         visible: false
+      - map: [ "underpants"]
+      - map: [ "bra" ]
       - map: [ "jumpsuit" ]
       - map: [ "enum.HumanoidVisualLayers.LHand" ]
         color: "#e8b59b"
@@ -350,4 +352,11 @@
       uiWindowPos: 3,0
       strippingWindowPos: 0,5
       displayName: Back
+    - name: bra
+      slotTexture: bra
+      slotFlags: BRA
+      stripTime: 8
+      uiWindowPos: 2,1
+      strippingWindowPos: 2,1
+      displayName: Bra
 
