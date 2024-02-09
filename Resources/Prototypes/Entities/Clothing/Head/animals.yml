@@ -52,3 +52,15 @@
     sprite: Clothing/Head/Animals/monkey.rsi
   - type: Clothing
     sprite: Clothing/Head/Animals/monkey.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: RabbitEars
+  name: Ушки кролика
+  description: идут с комплектом костюма зайчика. Это ободок на которые прикреплены два длинных, разноцветных ушка зайчика
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Animals/rabbit.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Animals/rabbit.rsi
+
