@@ -102,3 +102,10 @@ accent-words-kobold-6 = Гронк!
 accent-words-kobold-7 = Хисс!
 accent-words-kobold-8 = Йии!
 accent-words-kobold-9 = Йип.
+
+# Vaporeon
+accent-words-vaporeon-1 = вапореон
+accent-words-vaporeon-2 = вап-реон
+accent-words-vaporeon-3 = вааап!
+accent-words-vaporeon-4 = вааааап!
+accent-words-vaporeon-5 = вапо... По-пореон!

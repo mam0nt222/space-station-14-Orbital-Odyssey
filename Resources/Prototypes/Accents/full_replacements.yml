@@ -166,3 +166,12 @@
   - accent-words-kobold-7
   - accent-words-kobold-8
   - accent-words-kobold-9
+
+- type: accent
+  id: vaporeon
+  fullReplacements:
+  - accent-words-vaporeon-1
+  - accent-words-vaporeon-2
+  - accent-words-vaporeon-3
+  - accent-words-vaporeon-4
+  - accent-words-vaporeon-5

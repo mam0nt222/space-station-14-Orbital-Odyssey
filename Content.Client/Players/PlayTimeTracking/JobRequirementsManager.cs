@@ -41,7 +41,7 @@ public sealed class JobRequirementsManager
     }
 
     //start-backmen: whitelist
-    private bool _whitelisted = false;
+    private bool _whitelisted = true;
     private void RxWhitelist(Shared.Backmen.MsgWhitelist message)
     {
         _whitelisted = message.Whitelisted;

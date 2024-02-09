@@ -366,3 +366,10 @@
     path: /Audio/Animals/kangaroo_grunt.ogg
     params:
       variation: 0.125
+
+- type: emoteSounds
+  id: VaporeonCry
+  sound:
+    path: /Audio/OrbitalOddysey/Audio/Animals/vaporeon_crying.ogg
+    params:
+      variation: 0.125

@@ -1,0 +1,134 @@
+- type: entity
+  name: Вапореон
+  parent: [ SimpleMobBase, MobCombat ]
+  id: MobVaporeon
+  description: Это существо может спокойно раствориться в воде, а если его плавники трясутся, то скоро нагрянет дождь. В космических же реалиях, они признаны как экзотические зверушки, которые могут с легкостью облить Вас водой, сама которая загадочным образом выделяется у них во рту. Если притронуться к коже Вапореона, то Вы почувствуете, какая она скользкая и влажная, но до жути мягкая.
+  components:
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: ghost-role-information-vaporeon-name
+    description: ghost-role-information-vaporeon-description
+  - type: GhostTakeoverAvailable
+  - type: Speech
+    speechVerb: LargeMob
+    speechSounds: Vaporeon
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: OrbitalOddysey/Mobs/Animals/vaporeon.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base", "movement"]
+      state: vaporeon-0
+  - type: SpriteMovement
+    movementLayers:
+      movement:
+        state: vaporeon-moving-0
+    noMovementLayers:
+      movement:
+        state: vaporeon-0
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.2
+        density: 120
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: MobState
+  - type: Deathgasp
+  - type: MobStateActions
+    actions:
+      Critical:
+      - ActionCritSuccumb
+      - ActionCritFakeDeath
+      - ActionCritLastWords
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      500: Critical
+      600: Dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 4
+    baseSprintSpeed : 4
+  - type: Inventory
+    speciesId: hamster
+    templateId: hamster
+  - type: InventorySlots
+  - type: Strippable
+  - type: UserInterface
+    interfaces:
+    - key: enum.StrippingUiKey.Key
+      type: StrippableBoundUserInterface
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: vaporeon-0
+      Critical:
+        Base: splat-0
+      Dead:
+        Base: dead-0
+  - type: Food
+  - type: Hunger
+    baseDecayRate: 0.1
+  - type: Extractable
+    grindableSolutionName: food
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 100
+        - ReagentId: Blood
+          Quantity: 550
+        - ReagentId: Fat
+          Quantity: 50
+  - type: Butcherable
+    spawned:
+    - id: FoodMeat
+      amount: 1
+  - type: ReplacementAccent
+    accent: vaporeon
+  - type: Tag
+    tags:
+    - Trash
+    - Meat
+  - type: Respirator
+    damage:
+      types:
+        Asphyxiation: 0.25
+    damageRecovery:
+      types:
+        Asphyxiation: -0.25
+  - type: Barotrauma
+    damage:
+      types:
+        Blunt: 0.1
+  - type: CombatMode
+  - type: MeleeWeapon
+    soundHit:
+        path: /Audio/Effects/bite.ogg
+    angle: 0
+    animation: WeaponArcBite
+    damage:
+      types:
+        Piercing: 2
+  - type: InteractionPopup
+    successChance: 0.4
+    interactSuccessString: petting-success-hamster
+    interactFailureString: petting-failure-hamster
+    interactSuccessSpawn: EffectHearts
+    interactSuccessSound:
+      path: Audio/OrbitalOddysey/Audio/Animals/vaporeonbase.ogg
+  - type: Bloodstream
+    bloodMaxVolume: 60
+  - type: MobPrice
+    price: 60
+  - type: NonSpreaderZombie
+  - type: Vocal
+    sounds:
+      Unsexed: VaporeonCry
