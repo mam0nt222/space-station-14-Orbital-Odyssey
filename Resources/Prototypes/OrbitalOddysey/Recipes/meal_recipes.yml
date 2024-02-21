@@ -1,0 +1,47 @@
+- type: microwaveMealRecipe
+  id: RecipeCatKotort
+  name: Рецепт сливочного Кототорта
+  result: MobCatKotort
+  time: 30
+  reagents:
+    Cream: 10
+    UnstableMutagen: 30
+  solids:
+    FoodCakePlain: 1
+    Hairball: 1
+
+- type: microwaveMealRecipe
+  id: RecipeCatKotortСhocolate
+  name: Рецепт шоколадного Кототорта
+  result: MobCatKotortСhocolate
+  time: 30
+  reagents:
+    UnstableMutagen: 30
+  solids:
+    FoodCakePlain: 1
+    Hairball: 1
+    FoodSnackChocolateBar: 2
+
+- type: microwaveMealRecipe
+  id: RecipeCatKotortLemon
+  name: Рецепт лимонный Кототорта
+  result: MobCatKotortLemon
+  time: 30
+  reagents:
+    UnstableMutagen: 30
+  solids:
+    FoodCakePlain: 1
+    Hairball: 1
+    FoodLemon: 2
+
+- type: microwaveMealRecipe
+  id: RecipeCatKotortBananaPeanut
+  name: Рецепт Бананово-ореховый Кототорт
+  result: MobCatKotortBananaPeanut
+  time: 30
+  reagents:
+    UnstableMutagen: 30
+  solids:
+    FoodBreadBanana: 1
+    Hairball: 1
+    FoodSnackSemki: 2
