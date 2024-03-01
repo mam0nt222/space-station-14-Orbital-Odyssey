@@ -51,5 +51,7 @@
     - BSSDrone #backmen: bssdrone
     - StationAI # backmen: AI
     - BorgChassis
+    - BaseMobHumanoidFox
+    - BaseMobVulpkanin
   components:
     - type: GrowlingAccent
