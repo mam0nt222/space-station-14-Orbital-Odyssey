@@ -84,31 +84,42 @@
   - type: Body
     prototype: Vox
     requiredLegs: 2
-  # Vox nitrogen stuff is handled in their metabolism
-  - type: Respirator
-    damage:
-      types:
-        Asphyxiation: 2
-    damageRecovery:
-      types:
-        Asphyxiation: -1.0
   - type:  HumanoidAppearance
     species: Vox
-    # canColorHair: false
-    # canColorFacialHair: false
-  - type: Inventory
-    speciesId: vox
-  - type: InventorySlots
-  - type: Butcherable
-    butcheringType: Spike
-    spawned:
-    - id: FoodMeatChicken
-      amount: 5
+    #- type: VoxAccent # Not yet coded
+  - type: Speech
+    speechVerb: Vox
+    speechSounds: Vox
+  - type: TypingIndicator
+    proto: vox
   - type: Vocal
     sounds:
       Male: UnisexVox
       Female: UnisexVox
       Unsexed: UnisexVox
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatChicken
+      amount: 5
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Vox
+  - type: DamageVisuals
+    damageOverlayGroups:
+      Brute:
+        sprite: Mobs/Effects/brute_damage.rsi
+        color: "#7a8bf2"
+  - type: Bloodstream
+    bloodReagent: AmmoniaBlood
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Weapons/pierce.ogg
+    angle: 30
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 5 # Reduce?
 
 - type: entity
   parent: BaseSpeciesDummy

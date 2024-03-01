@@ -175,3 +175,11 @@
   - accent-words-vaporeon-3
   - accent-words-vaporeon-4
   - accent-words-vaporeon-5
+
+- type: accent
+  id: nymph
+  fullReplacements:
+  - accent-words-nymph-1
+  - accent-words-nymph-2
+  - accent-words-nymph-3
+  - accent-words-nymph-4

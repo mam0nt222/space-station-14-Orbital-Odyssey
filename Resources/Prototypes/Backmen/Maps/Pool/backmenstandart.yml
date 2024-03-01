@@ -1,19 +1,18 @@
 - type: gameMapPool
   id: BackmenDefaultMapPool
   maps:
-  - CorvaxDelta
-  - CorvaxAvrite
   - CorvaxSilly
-  - Cluster
-  - Core
-  - Omega
-  - Atlas
-  - Gemini
-  - Reach
   - Tortuga
   - TheHive
-  - Cogmap
   - Shoukou
+  - Meta
+  - Fland
   - CorvaxAstra
   - CorvaxOutpost
-
+  - CorvaxGelta
+  - Cluster
+  - Saltern
+  - Omega
+  - Reach
+  - Bagel
+  - Train

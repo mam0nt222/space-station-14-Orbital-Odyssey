@@ -35,6 +35,7 @@
           actionBssActionName: ActionCentcomFtlAction
         - type: Psionic
         - type: DispelPower
+        - type: InitialInfectedExempt
   minBankBalance: 400
   maxBankBalance: 600
   wageDepartment: CentCom
@@ -44,7 +45,7 @@
   parent: JobIcon
   id: JobIconNanotrasenHighOfficer
   icon:
-    sprite: Backmen/Icons/jobicon.rsi
+    sprite: /Textures/Backmen/Icons/jobicon.rsi
     state: Nanotrasen
 
 - type: entity

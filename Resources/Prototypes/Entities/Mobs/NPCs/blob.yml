@@ -35,7 +35,6 @@
         reagents:
           - ReagentId: TearGas
             Quantity: 3
-      sound: /Audio/Effects/smoke.ogg
     - type: Damageable
       damageContainer: Blob
       damageModifierSet: BlobMob
@@ -65,6 +64,7 @@
       rootTask:
         task: BlobPodCompound
     - type: BlobMob
+    - type: BlobSpeak
     - type: ReplacementAccent
       accent: genericAggressive
     - type: CombatMode
@@ -135,6 +135,7 @@
       rules: You are an antagonist, defend your blob core!
     - type: GhostTakeoverAvailable
     - type: Blobbernaut
+    - type: BlobSpeak
     - type: Physics
     - type: InputMover
     - type: MobMover
@@ -331,6 +332,9 @@
         acts: [ "Destruction" ]
   - type: BlobTile
     tileType: Core
+  - type: BlobSpeak
+  - type: ReplacementAccent
+    accent: genericAggressive
   - type: BlobCore
     resourceRadiusLimit: 4
     attackCost: 4
@@ -603,7 +607,10 @@
           type: BlobChemSwapBoundUserInterface
     - type: Actions
     - type: Alerts
+    - type: ReplacementAccent
+      accent: genericAggressive
     - type: BlobObserver
+    - type: BlobSpeak
     - type: Visibility
       layer: 2
     - type: ContentEye

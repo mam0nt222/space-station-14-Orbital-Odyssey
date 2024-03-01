@@ -46,22 +46,7 @@
     - type: PowerCellDraw
       useRate: 0
 
-- type: entity
-  parent: HandheldCrewMonitor
-  id: HandheldCrewMonitorINF
-  name: handheld crew monitor
-  description: A hand-held crew monitor displaying the status of suit sensors.
-  suffix: Backmen, INF
-  components:
-    - type: PowerCellDraw
-      useRate: 0
 
-- type: nameIdentifierGroup
-  id: BSSDroneMED
-  prefix: МЕД
-  fullName: true
-  minValue: 10000
-  maxValue: 99999
 
 - type: entity
   name: Blue Space Drone MED
@@ -74,6 +59,7 @@
   - type: NameIdentifier
     group: BSSDroneMED
   - type: MetaData
+  - type: BorgAINT
   - type: IntrinsicRadioReceiver
   - type: IntrinsicRadioTransmitter
     channels:
@@ -88,7 +74,7 @@
       - id: BSSClothingBackpackSatchelDroneMED
       - id: HandheldHealthAnalyzerINF
       #- id: DefibrillatorINF #Broken
-      - id: HandheldCrewMonitorINF
+      #- id: HandheldCrewMonitorINF
   - type: Inventory
     templateId: drone
   - type: InventorySlots
@@ -100,7 +86,7 @@
     - key: enum.SiliconLawsUiKey.Key
       type: SiliconLawBoundUserInterface
   - type: GhostRole
-    whitelistRequired: true
+    #whitelistRequired: true
     makeSentient: true
     allowSpeech: true # backmen
     allowMovement: true # backmen

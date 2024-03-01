@@ -97,3 +97,8 @@
 - type: Tag
   id: SwordSquadRO
 
+- type: Tag
+  id: CartridgeRifleHeavy
+
+- type: Tag
+  id: CartridgeAntitank

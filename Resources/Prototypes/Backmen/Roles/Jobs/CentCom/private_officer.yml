@@ -16,9 +16,6 @@
       department: Security
       time: 108000
     - !type:RoleTimeRequirement
-      role: JobHeadOfSecurity
-      time: 3600
-    - !type:RoleTimeRequirement
       role: JobCentralCommandAssistant
       time: 3600
   access:
@@ -40,6 +37,7 @@
           actionBssActionName: ActionCentcomFtlAction
         - type: PsionicBonusChance
           multiplier: 3
+        - type: InitialInfectedExempt
   minBankBalance: 100
   maxBankBalance: 250
   wageDepartment: CentCom

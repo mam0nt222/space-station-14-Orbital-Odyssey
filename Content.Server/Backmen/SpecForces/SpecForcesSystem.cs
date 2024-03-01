@@ -26,7 +26,7 @@ public sealed class SpecForcesSystem : EntitySystem
     // ReSharper disable once MemberCanBePrivate.Global
     [ViewVariables] public TimeSpan LastUsedTime { get; private set; } = TimeSpan.Zero;
 
-    private readonly TimeSpan _delayUsage = TimeSpan.FromMinutes(15);
+    private readonly TimeSpan _delayUsage = TimeSpan.FromMinutes(2);
     private readonly ReaderWriterLockSlim _callLock = new();
 
     public override void Initialize()
@@ -42,7 +42,7 @@ public sealed class SpecForcesSystem : EntitySystem
 
     private void OnShutdown(EntityUid uid, SpecForceComponent component, ComponentShutdown args)
     {
-            _actions.RemoveAction(uid, component.BssKey);
+        _actions.RemoveAction(uid, component.BssKey);
     }
 
     private void OnStartup(EntityUid uid, SpecForceComponent component, ComponentStartup args)
@@ -190,9 +190,12 @@ public sealed class SpecForcesSystem : EntitySystem
 
         switch (ev)
         {
+            #region ERT
             case SpecForcesType.ERT:
                 SpawnEntity(ErtLeader, _random.Pick(spawns));
                 SpawnEntity(ErtEngineer, _random.Pick(spawns));
+
+                countExtra = Math.Max(0, countExtra - 3); // уменьшачем число на 3, если меньше 0 то 0
 
                 while (countExtra > 0)
                 {
@@ -212,10 +215,16 @@ public sealed class SpecForcesSystem : EntitySystem
                     }
                 }
 
+
                 break;
+            #endregion
+
+            #region RXBZZ
             case SpecForcesType.RXBZZ:
+
                 SpawnEntity(RxbzzLeader, _random.Pick(spawns));
                 SpawnEntity(RxbzzFlamer, _random.Pick(spawns));
+
                 while (countExtra > 0)
                 {
                     if (countExtra-- > 0)
@@ -225,17 +234,83 @@ public sealed class SpecForcesSystem : EntitySystem
                 }
 
                 break;
-            case SpecForcesType.DeathSquad:
-                SpawnEntity(SpestnazOfficer, _random.Pick(spawns));
+            #endregion
+
+            #region ERTAlpha
+            case SpecForcesType.ERTAlpha:
+
+                SpawnEntity(ErtAplhaLeader, _random.Pick(spawns));
+                SpawnEntity(ErtAplhaOperative, _random.Pick(spawns));
+                SpawnEntity(ErtAplhaOperative, _random.Pick(spawns));
+
+                countExtra = Math.Max(0, countExtra - 5); // уменьшачем число на 5, если меньше 0 то 0
                 while (countExtra > 0)
                 {
                     if (countExtra-- > 0)
                     {
-                        SpawnEntity(Spestnaz, _random.Pick(spawns));
+                        SpawnEntity(ErtAplhaOperative, _random.Pick(spawns));
                     }
                 }
 
                 break;
+            #endregion
+
+            #region ERTEpsilon
+
+            case SpecForcesType.ERTEpsilon:
+
+                SpawnEntity(ErtEpsilonLeader, _random.Pick(spawns));
+                SpawnEntity(ErtEpsilonSecurity, _random.Pick(spawns));
+                SpawnEntity(ErtEpsilonEngineer, _random.Pick(spawns));
+
+                while (countExtra > 0)
+                {
+                    if (countExtra-- > 0)
+                    {
+                        SpawnEntity(ErtEpsilonSecurity, _random.Pick(spawns));
+                    }
+
+                    if (countExtra-- > 0)
+                    {
+                        SpawnEntity(ErtEpsilonEngineer, _random.Pick(spawns));
+                    }
+
+                    if (countExtra-- > 0)
+                    {
+                        SpawnEntity(ErtEpsilonMedical, _random.Pick(spawns));
+                    }
+
+                    if (countExtra-- > 0)
+                    {
+                        SpawnEntity(ErtEpsilonJunitor, _random.Pick(spawns));
+                    }
+                }
+
+                break;
+
+            #endregion
+
+            #region DeathSquad
+
+            case SpecForcesType.DeathSquad:
+
+                // статично спавним 3
+                SpawnEntity(SpestnazOfficer, _random.Pick(spawns));
+                SpawnEntity(Spestnaz, _random.Pick(spawns));
+                SpawnEntity(Spestnaz, _random.Pick(spawns));
+
+                countExtra = Math.Max(0, countExtra - 5); // уменьшачем число на 5, если меньше 0 то 0
+
+                while (countExtra > 0) // пока число countExtra больше 0
+                {
+                    countExtra--; // спавним по 1 и делаем минус 1
+                    SpawnEntity(Spestnaz, _random.Pick(spawns));
+                }
+
+                break;
+
+            #endregion
+
             default:
                 return;
         }
@@ -254,6 +329,8 @@ public sealed class SpecForcesSystem : EntitySystem
                 {
                     // todo: cvar
                     SpecForcesType.ERT => EtrShuttlePath,
+                    SpecForcesType.ERTAlpha => ErtAplhaShuttlePath,
+                    SpecForcesType.ERTEpsilon => ErtEpsilonShuttlePath,
                     SpecForcesType.RXBZZ => RxbzzShuttlePath,
                     SpecForcesType.DeathSquad => SpestnazShuttlePath,
                     _ => EtrShuttlePath
@@ -290,8 +367,30 @@ public sealed class SpecForcesSystem : EntitySystem
                 }
 
                 break;
+            case SpecForcesType.ERTAlpha:
+                foreach (var station in stations) // для каждой станции
+                {
+                    _chatSystem.DispatchStationAnnouncement(station,
+                        Loc.GetString("spec-forces-system-ertcall-annonce"),
+                        Loc.GetString("spec-forces-system-ertAplha1call-title"),
+                        false, _ertAnnounce
+                    );
+                }
+
+                break;
+            case SpecForcesType.ERTEpsilon:
+                foreach (var station in stations) // для каждой станции
+                {
+                    _chatSystem.DispatchStationAnnouncement(station,
+                        Loc.GetString("spec-forces-system-ertcall-annonce"),
+                        Loc.GetString("spec-forces-system-ertEpsiloncall-title"),
+                        false, _ertAnnounce
+                    );
+                }
+
+                break;
             case SpecForcesType.RXBZZ:
-                foreach (var station in stations)
+                foreach (var station in stations) // для каждой станции
                 {
                     _chatSystem.DispatchStationAnnouncement(station,
                         Loc.GetString("spec-forces-system-RXBZZ-annonce"),
@@ -308,7 +407,7 @@ public sealed class SpecForcesSystem : EntitySystem
 
     private void OnRoundEnd(RoundEndTextAppendEvent ev)
     {
-        foreach (var calledEvent in CalledEvents)
+        foreach (var calledEvent in CalledEvents) // выводим кто из админов что вызывал
         {
             ev.AddLine(Loc.GetString("spec-forces-system-" + calledEvent.Event,
                 ("time", calledEvent.RoundTime.ToString(@"hh\:mm\:ss")), ("who", calledEvent.WhoCalled)));
@@ -335,6 +434,17 @@ public sealed class SpecForcesSystem : EntitySystem
     [ValidatePrototypeId<EntityPrototype>] private const string ErtEngineer = "SpawnMobHumanERTEngineerEVAV2_1";
     [ValidatePrototypeId<EntityPrototype>] private const string ErtJunitor = "SpawnMobHumanERTJunitorEVAV2_1";
     [ValidatePrototypeId<EntityPrototype>] private const string ErtMedical = "SpawnMobHumanERTMedicalEVAV2_1";
+
+    private const string ErtAplhaShuttlePath = "Maps/Backmen/Grids/NT-CC-Specnaz-013.yml";
+    [ValidatePrototypeId<EntityPrototype>] private const string ErtAplhaLeader = "SpawnMobHumanERTLeaderAlpha1";
+    [ValidatePrototypeId<EntityPrototype>] private const string ErtAplhaOperative = "SpawnMobHumanERTOperativeAlpha1";
+
+    private const string ErtEpsilonShuttlePath = "Maps/Backmen/Grids/NT-DF-Kolibri-011.yml";
+    [ValidatePrototypeId<EntityPrototype>] private const string ErtEpsilonLeader = "SpawnMobHumanERTLeaderEpsilon";
+    [ValidatePrototypeId<EntityPrototype>] private const string ErtEpsilonSecurity = "SpawnMobHumanERTSecurityEpsilon";
+    [ValidatePrototypeId<EntityPrototype>] private const string ErtEpsilonEngineer = "SpawnMobHumanERTEngineerEpsilon";
+    [ValidatePrototypeId<EntityPrototype>] private const string ErtEpsilonJunitor = "SpawnMobHumanERTJanitorEpsilon";
+    [ValidatePrototypeId<EntityPrototype>] private const string ErtEpsilonMedical = "SpawnMobHumanERTMedicalEpsilon";
 
     private const string RxbzzShuttlePath = "Maps/Backmen/Grids/NT-CC-SRV-013.yml";
     [ValidatePrototypeId<EntityPrototype>] private const string RxbzzLeader = "MobHumanRXBZZLeader";
