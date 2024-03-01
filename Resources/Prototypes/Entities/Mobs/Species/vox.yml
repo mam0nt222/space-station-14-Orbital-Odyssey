@@ -43,6 +43,7 @@
       #  visible: false
       - map: [ "underpants" ]
       - map: [ "bra" ]
+      - map: ["socks"]
       #- map: [ "jumpsuit" ]
       #  shader: StencilDraw
       - map: [ "enum.HumanoidVisualLayers.LHand" ]

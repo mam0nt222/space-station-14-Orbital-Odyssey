@@ -145,17 +145,11 @@
       uiWindowPos: 1,4
       strippingWindowPos: 0,8
       displayName: Bra
-    - name: underpants
-      slotTexture: underpants
-      slotFlags: UNDERPANTS
-      stripTime: 8
-      uiWindowPos: 0,4
-      strippingWindowPos: 0,0
-      displayName: Underpants
-    - name: bra
-      slotTexture: bra
-      slotFlags: BRA
-      stripTime: 8
-      uiWindowPos: 1,4
-      strippingWindowPos: 0,8
-      displayName: Bra
+    - name: socks
+      slotTexture: socks
+      slotFlags: SOCKS
+      stripTime: 4
+      uiWindowPos: 5,1
+      strippingWindowPos: 5,1
+      displayName: Socks
+

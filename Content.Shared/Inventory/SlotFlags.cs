@@ -28,5 +28,6 @@ public enum SlotFlags
     SUITSTORAGE = 1 << 15,
     UNDERPANTS = 1 << 16,
     BRA = 1 << 17,
+    SOCKS = 1 << 18,
     All = ~NONE,
 }

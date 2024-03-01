@@ -89,6 +89,7 @@
         visible: false
       - map: [ "underpants" ]
       - map: [ "bra" ]
+      - map: ["socks"]
       - map: [ "jumpsuit" ]
       - map: [ "enum.HumanoidVisualLayers.LHand" ]
       - map: [ "enum.HumanoidVisualLayers.RHand" ]
