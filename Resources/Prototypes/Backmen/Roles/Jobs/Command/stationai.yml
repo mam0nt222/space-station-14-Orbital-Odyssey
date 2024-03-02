@@ -23,7 +23,7 @@
       role: JobBorg
       time: 21600
     - !type:OverallPlaytimeRequirement
-      time: 86400
+      time: 36000
   weight: 30
   icon: JobIconStationAI
   supervisors: "all crew"

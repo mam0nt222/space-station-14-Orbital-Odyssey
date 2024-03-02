@@ -14,13 +14,10 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Cargo
-      time: 126000
-    - !type:RoleTimeRequirement
-      role: JobCentralCommandAssistant
-      time: 21600
+      time: 60000
     - !type:DepartmentTimeRequirement
       department: CentCom
-      time: 43200
+      time: 18000
   access:
     - CentralCommand
     - CCCargo

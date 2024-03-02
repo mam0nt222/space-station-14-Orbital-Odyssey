@@ -14,9 +14,6 @@
   whitelistRequired: true
   requirements:
     - !type:RoleTimeRequirement
-      role: JobSAI
-      time: 18000
-    - !type:RoleTimeRequirement
       role: JobCentralCommandAssistant
       time: 21600
     - !type:DepartmentTimeRequirement

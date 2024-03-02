@@ -6,13 +6,10 @@
   joinNotifyCrew: false
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 24000
+    time: 3600 # 1 hr
   - !type:DepartmentTimeRequirement
     department: Engineering
-    time: 14400
-  - !type:RoleTimeRequirement
-    role: JobCentralCommandAssistant
-    time: 18000
+    time: 21600 # 1 hr
   icon: JobIconUnknown
   supervisors: job-supervisors-human
   canBeAntag: false

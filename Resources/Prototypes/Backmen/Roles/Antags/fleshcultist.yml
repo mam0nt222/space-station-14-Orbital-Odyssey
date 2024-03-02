@@ -13,7 +13,7 @@
   objective: roles-antag-flesh-cultist-leader-objective
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 18000 # 5h
+      time: 7200 # 5h
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 18000 # 5h
+      time: 7200 # 5h
