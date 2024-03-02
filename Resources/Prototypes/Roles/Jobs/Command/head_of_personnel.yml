@@ -13,7 +13,7 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 7200 #2 hrs # Corvax-RoleTime
-    - type:DepartmentTimeRequirement
+    - !type:DepartmentTimeRequirement
       department: Civilian
     - !type:OverallPlaytimeRequirement
       time: 21600 #maybe 5 hrs
