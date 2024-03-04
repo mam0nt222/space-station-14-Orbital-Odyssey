@@ -360,10 +360,3 @@
       uiWindowPos: 2,1
       strippingWindowPos: 2,1
       displayName: Bra
-    - name: socks
-      slotTexture: socks
-      slotFlags: SOCKS
-      stripTime: 4
-      uiWindowPos: 2,1
-      strippingWindowPos: 2,1
-      displayName: Socks
