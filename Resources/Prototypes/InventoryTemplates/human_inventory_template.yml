@@ -118,20 +118,21 @@
       slotTexture: underpants
       slotFlags: UNDERPANTS
       stripTime: 8
-      uiWindowPos: 0,4
-      strippingWindowPos: 0,0
+      uiWindowPos: 1,4
+      strippingWindowPos: 0,3
       displayName: Underpants
     - name: bra
       slotTexture: bra
       slotFlags: BRA
       stripTime: 8
-      uiWindowPos: 1,4
-      strippingWindowPos: 0,8
+      uiWindowPos: 0,4
+      strippingWindowPos: 2,1
       displayName: Bra
     - name: socks
       slotTexture: socks
       slotFlags: SOCKS
-      stripTime: 4
-      uiWindowPos: 5,1
-      strippingWindowPos: 5,1
+      stripTime: 5
+      uiWindowPos: 2,4
+      strippingWindowPos: 2,3
       displayName: Socks
+
