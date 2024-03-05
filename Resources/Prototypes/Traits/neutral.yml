@@ -42,3 +42,16 @@
   components:
     - type: OwOAccent
 
+- type: trait
+  id: UvularRotationismAccent
+  name: Увулярный ротацизм
+  description: Вы растягиваете звук "р", к сожалению, это не лечится.
+  blacklist:
+    components:
+    - BSSDrone #backmen: bssdrone
+    - StationAI # backmen: AI
+    - BorgChassis
+    - BaseMobHumanoidFox
+    - BaseMobVulpkanin
+  components:
+    - type: GrowlingAccent

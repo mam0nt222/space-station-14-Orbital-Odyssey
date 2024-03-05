@@ -46,6 +46,7 @@
         visible: false
       - map: [ "underpants"]
       - map: [ "bra" ]
+      - map: ["socks"]
       - map: [ "jumpsuit" ]
       - map: [ "enum.HumanoidVisualLayers.LHand" ]
         color: "#e8b59b"
@@ -359,4 +360,3 @@
       uiWindowPos: 2,1
       strippingWindowPos: 2,1
       displayName: Bra
-
