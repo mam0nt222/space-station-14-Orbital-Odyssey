@@ -1,0 +1,12 @@
+
+- type: listing
+  id: UplinkUltrabrightLantern_Felinid
+  name: uplink-Felinid-name
+  description: uplink-Felinid-desc
+  productEntity: ReinforcementRadioSyndicate_Felinid
+  cost:
+    Telecrystal: 4
+  categories:
+  - UplinkUtility
+
+

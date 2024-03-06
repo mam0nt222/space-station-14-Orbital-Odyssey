@@ -37,6 +37,15 @@
   - type: StealTarget
     stealGroup: AnimalIan
 
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Иан
+    description: Любимое домашнее животное - корги.
+
+  - type: GhostTakeoverAvailable
+
 - type: entity
   name: Old Ian
   parent: MobCorgiIan
@@ -101,6 +110,15 @@
       amount: 2
     - id: MaterialHideCorgi
 
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Щенок Иан
+    description: Любимый щенок корги. Аввв.
+
+  - type: GhostTakeoverAvailable
+
 - type: entity
   name: Runtime
   parent: MobCat
@@ -122,6 +140,15 @@
     - CannotSuicide
     - VimPilot
 
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Рантайм
+    description: Профессиональный охотник на мышей. Мастер побега.
+
+  - type: GhostTakeoverAvailable
+
 - type: entity
   name: Exception
   id: MobCatException
@@ -139,6 +166,16 @@
     tags:
     - CannotSuicide
     - VimPilot
+
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Эксепшен
+    description: Хорошенько попросите, и, возможно, они дадут вам одну из своих запасных жизней.
+
+  - type: GhostTakeoverAvailable
+
 
 - type: entity
   name: Floppa
@@ -165,6 +202,15 @@
     - CannotSuicide
     - VimPilot
 
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Шлёпа
+    description: Шлёпа! Шлёпа! Шлёпа! Шлёпа!
+
+  - type: GhostTakeoverAvailable
+
 - type: entity
   name: Bandito
   parent: MobFerret
@@ -179,6 +225,15 @@
     tags:
     - CannotSuicide
     - VimPilot
+
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Бандито
+    description: Просто маленький глупый парнишка!
+
+  - type: GhostTakeoverAvailable
 
 - type: entity
   name: Bingus
@@ -242,6 +297,15 @@
     - VimPilot
   - type: StealTarget
     stealGroup: AnimalBingus
+
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: бингус
+    description: Бингус, мой любимый...
+
+  - type: GhostTakeoverAvailable
 
 - type: entity
   name: McGriff
@@ -308,6 +372,14 @@
   - type: StealTarget
     stealGroup: AnimalMcGriff
 
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: МакГрифф
+    description: Этот пёс может сказать, что здесь чем-то попахивает, и это что-то - ПРЕСТУПЛЕНИЕ!
+  - type: GhostTakeoverAvailable
+
 - type: entity
   name: Paperwork
   parent: MobSloth
@@ -341,6 +413,14 @@
     attributes:
       proper: true
       gender: male
+
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Пэйперворк
+    description: Устроился на новую работу по сортировке книг в библиотеке после того, как его перевели с Космической Станции 13. Он, похоже, очень медленно справляется с этой работой.
+  - type: GhostTakeoverAvailable
 
 - type: entity
   name: Walter
@@ -407,6 +487,14 @@
   - type: StealTarget
     stealGroup: AnimalWalter
 
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Уолтер
+    description: Он обожает химию и угощения. Уолтер.
+  - type: GhostTakeoverAvailable
+
 - type: entity
   name: Morty
   parent: MobPossum
@@ -431,6 +519,14 @@
   - type: StealTarget
     stealGroup: AnimalMorty
 
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Морти
+    description: Обитатель станции, Виргинский опоссум. Чувствительный, но стойкий парень.
+  - type: GhostTakeoverAvailable
+
 - type: entity
   name: Morty
   parent: MobPossumMorty
@@ -449,6 +545,14 @@
         Base: possum_old
       Dead:
         Base: possum_dead_old
+
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Морти
+    description: Обитатель станции, Виргинский опоссум. Чувствительный, но стойкий парень.
+  - type: GhostTakeoverAvailable
 
 - type: entity
   name: Poppy # the Safety Possum
@@ -473,6 +577,14 @@
       Dead:
         Base: poppy_dead
 
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Поппи
+    description: Это опоссум, небольшое сумчатое животное, питающееся отбросами. На него надеты соответствующие средства индивидуальной защиты.
+  - type: GhostTakeoverAvailable
+
 - type: entity
   name: Morticia
   parent: MobRaccoon
@@ -495,6 +607,15 @@
     - CannotSuicide
     - VimPilot
 
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Мортиша
+    description: Могущественное создание ночи. Ее тени для век всегда на высоте.
+  - type: GhostTakeoverAvailable
+
+
 - type: entity
   name: Alexander
   parent: MobPig
@@ -516,6 +637,15 @@
     tags:
     - CannotSuicide
     - VimPilot
+
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Александр
+    description: Лучший коллега повара.
+  - type: GhostTakeoverAvailable
+
 
 - type: entity
   name: Renault
@@ -546,6 +676,14 @@
     - VimPilot
   - type: StealTarget
     stealGroup: AnimalRenault
+
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Алиса
+    description: Верная лиса капитана.
+  - type: GhostTakeoverAvailable
 
 - type: entity
   name: Hamlet
@@ -595,6 +733,8 @@
     - VimPilot
   - type: StealTarget
     stealGroup: AnimalHamlet
+
+
 
 - type: entity
   name: Shiva
@@ -661,6 +801,14 @@
   - type: StealTarget
     stealGroup: AnimalShiva
 
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Шива
+    description: Первый защитник станции.
+  - type: GhostTakeoverAvailable
+
 - type: entity
   name: Willow
   parent: MobKangaroo
@@ -684,12 +832,14 @@
     - DoorBumpOpener
     - FootstepSound
   - type: GhostRole
-    prob: 0.25
+    prob: 0.5
     name: ghost-role-information-willow-name
     description: ghost-role-information-willow-description
   - type: GhostTakeoverAvailable
   - type: Loadout
     prototypes: [ BoxingKangarooGear ]
+
+
 
 - type: entity
   name: Smile
@@ -825,3 +975,11 @@
 #  - type: AlwaysRevolutionaryConvertible
   - type: StealTarget
     stealGroup: AnimalTropico
+
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Тропико
+    description: Благородный и непоколебимый защитник Атмосии. Viva!
+  - type: GhostTakeoverAvailable
