@@ -1,0 +1,56 @@
+
+- type: entity
+  parent: MobHuman
+  id: MobFelinidS
+  name: Горничная Синдиката
+  suffix: Горничная Синдиката
+  components:
+    - type: Loadout
+      prototypes: [FelinidSS]
+ #   - type: RandomMetadata
+ #     nameSegments: [corvax_names_death_commando] # Corvax-Localization
+    - type: NpcFactionMember
+      factions:
+      - Syndicate
+
+    - type: RandomMetadata
+    - type: RandomHumanoidAppearance
+
+
+
+- type: startingGear
+  id: FelinidSS
+  equipment:
+    head: ClothingHeadHatTacticalMaidHeadband
+    jumpsuit: ClothingUniformJumpskirtTacticalMaid
+    back: ClothingBSyndicate
+    shoes: ClothingShoesSwat
+    id: SyndiAgentPDA
+    ears: ClothingHeadsetAltSyndicate
+    pocket1: PlushieNuke
+    gloves: ClothingHandsTacticalMaidGloves
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicate
+  id: ClothingBSyndicate
+  name: вещмешок синдиката
+  description: Большой вещмешок для хранения дополнительных предательских предметов.
+  components:
+  - type: StorageFill
+    contents:
+      - id: BalloonSyn
+      - id: ClothingNeckScarfStripedSyndieRed
+
+      - id: MopItem
+      - id: ClothingHeadPyjamaSyndicateRed
+      - id: ClothingUniformJumpsuitPyjamaSyndicateRed
+      - id: ClothingNeckSyndicakePin
+
+      - id: BoxSurvivalSyndicate
+      - id: SyndicatePersonalAI
+      - id: DoubleToySword
+
+      - id: SprayBottleSpaceCleaner
+      - id: SprayBottleSpaceCleaner
+      - id: BedsheetSyndie
+      - id: SoapSyndie
