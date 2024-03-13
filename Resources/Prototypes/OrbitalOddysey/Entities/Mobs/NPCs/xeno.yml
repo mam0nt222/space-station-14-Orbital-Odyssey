@@ -1,0 +1,56 @@
+
+- type: entity
+  name: Ксено-горничная 
+  parent: MobXeno
+  id: MobXenoMaid
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: OrbitalOddysey/Mobs/Pets/xcen_maid.ris
+    offset: 0,0.4
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: running
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      300: Dead
+  - type: Stamina
+    critThreshold: 1500
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3
+    baseSprintSpeed: 4
+  - type: MeleeWeapon
+    hidden: true
+    damage:
+     groups:
+       Brute: 10
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      250: 0.4
+      200: 0.7
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.45
+        density: 15500
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: Tag
+    tags:
+    - CannotSuicide
+  - type: NpcFactionMember
+    factions:
+    - PetsNT
+  - type: GhostRole
+    allowMovement: true
+    allowSpeech: true
+    makeSentient: true
+    name: Ксено-горничная 
+    description: Вы секс игрушка без права выбирать. 
+    rules: НЕ КАКОЙ РЕЗНИ!!! Вы не антагонист! Вы секс игрушка! 
+

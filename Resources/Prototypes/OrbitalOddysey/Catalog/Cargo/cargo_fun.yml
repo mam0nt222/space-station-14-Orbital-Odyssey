@@ -1,0 +1,10 @@
+- type: cargoProduct
+  id: FunMobXcenoCat
+  icon:
+    sprite: OrbitalOddysey/Mobs/Pets/xcen_maid.ris
+    state: sleeping
+  product: CrateLivestock_MobXenoMaid
+  cost: 25000
+  category: Fun
+  group: market
+
