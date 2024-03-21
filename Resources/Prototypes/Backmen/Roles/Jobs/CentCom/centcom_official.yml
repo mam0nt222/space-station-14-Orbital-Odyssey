@@ -16,9 +16,6 @@
     - !type:RoleTimeRequirement
       role: JobCentralCommandAssistant
       time: 21600
-    - !type:DepartmentTimeRequirement
-      department: CentCom
-      time: 43200
   access:
     - CCCargo
     - CCSecurity

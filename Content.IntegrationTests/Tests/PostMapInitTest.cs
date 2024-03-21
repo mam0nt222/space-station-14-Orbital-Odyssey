@@ -30,6 +30,7 @@ namespace Content.IntegrationTests.Tests
         private static readonly string[] NoSpawnMaps =
         {
             "Dart",
+            "NukieOutpost"
         };
 
         private static readonly string[] Grids =
@@ -37,7 +38,7 @@ namespace Content.IntegrationTests.Tests
             //"/Maps/centcomm.yml",
             "/Maps/Shuttles/cargo.yml",
             "/Maps/Shuttles/emergency.yml",
-            "/Maps/infiltrator.yml",
+            "/Maps/Shuttles/infiltrator.yml",
         };
 
         private static readonly string[] GameMaps =
@@ -45,8 +46,7 @@ namespace Content.IntegrationTests.Tests
             // Corvax-Start
             "CorvaxAvrite",
             "CorvaxDelta",
-			"CorvaxSpectrum",
-            //"CorvaxGate",
+            "CorvaxGate",
             "CorvaxSilly",
             "CorvaxOutpost",
             "CorvaxAstra",
@@ -65,6 +65,7 @@ namespace Content.IntegrationTests.Tests
             "Bagel",
             "Origin",
             "CentComm",
+            "NukieOutpost",
             "Box",
             "Europa",
             "Saltern",
