@@ -120,8 +120,19 @@ public sealed partial class DoAfterArgs
     ///     Whether damage will cancel the DoAfter. See also <see cref="DamageThreshold"/>.
     /// </summary>
     [DataField("breakOnDamage")]
-    public bool BreakOnDamage;
+    public bool BreakOnDamage;[DataField("breakOnUserMove")]
+    public bool BreakOnUserMove;
 
+    /// <summary>
+    ///     If this is true then any movement, even when weightless, will break the doafter.
+    ///     When there is no gravity, BreakOnUserMove is ignored. If it is false to begin with nothing will change.
+    /// </summary>
+
+    /// <summary>
+    ///     If do_after stops when the target moves (if there is a target)
+    /// </summary>
+    [DataField("breakOnTargetMove")]
+    public bool BreakOnTargetMove;
     /// <summary>
     ///     Threshold for user damage. This damage has to be dealt in a single event, not over time.
     /// </summary>
@@ -243,9 +254,11 @@ public sealed partial class DoAfterArgs
         EventTarget = other.EventTarget;
         Broadcast = other.Broadcast;
         NeedHand = other.NeedHand;
+        BreakOnUserMove = other.BreakOnUserMove;
+        BreakOnWeightlessMove = other.BreakOnWeightlessMove;
+        BreakOnTargetMove = other.BreakOnTargetMove;
         BreakOnHandChange = other.BreakOnHandChange;
         BreakOnMove = other.BreakOnMove;
-        BreakOnWeightlessMove = other.BreakOnWeightlessMove;
         MovementThreshold = other.MovementThreshold;
         DistanceThreshold = other.DistanceThreshold;
         BreakOnDamage = other.BreakOnDamage;
