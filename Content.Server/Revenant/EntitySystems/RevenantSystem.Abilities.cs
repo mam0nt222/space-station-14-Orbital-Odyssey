@@ -85,7 +85,7 @@ public sealed partial class RevenantSystem
     {
         var searchDoAfter = new DoAfterArgs(EntityManager, uid, revenant.SoulSearchDuration, new SoulEvent(), uid, target: target)
         {
-            BreakOnUserMove = true,
+            BreakOnMove = true,
             BreakOnDamage = true,
             DistanceThreshold = 2
         };
@@ -140,7 +140,7 @@ public sealed partial class RevenantSystem
         var doAfter = new DoAfterArgs(EntityManager, uid, revenant.HarvestDebuffs.X, new HarvestEvent(), uid, target: target)
         {
             DistanceThreshold = 2,
-            BreakOnUserMove = true,
+            BreakOnMove = true,
             BreakOnDamage = true,
             RequireCanInteract = false, // stuns itself
         };
@@ -307,6 +307,16 @@ public sealed partial class RevenantSystem
 
         args.Handled = true;
         // TODO: When disease refactor is in.
+
+        // backmen-start: Disease
+        var emo = GetEntityQuery<Shared.Backmen.Disease.DiseaseCarrierComponent>();
+        foreach (var ent in _lookup.GetEntitiesInRange(uid, component.BlightRadius))
+        {
+            if (emo.TryGetComponent(ent, out var comp))
+                EntityManager.System<Backmen.Disease.DiseaseSystem>().TryAddDisease(ent, component.BlightDiseasePrototypeId, comp);
+        }
+        EntityManager.System<Shared.Backmen.Abilities.Psionics.SharedPsionicAbilitiesSystem>().LogPowerUsed(uid, Loc.GetString("revenant-psionic-power"), 6, 10);
+        // backmen-end: Disease
     }
 
     private void OnMalfunctionAction(EntityUid uid, RevenantComponent component, RevenantMalfunctionActionEvent args)
