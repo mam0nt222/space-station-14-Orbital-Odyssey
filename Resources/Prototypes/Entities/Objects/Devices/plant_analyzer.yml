@@ -18,8 +18,8 @@
         type: PlantAnalyzerBoundUserInterface
   - type: PlantAnalyzer
     settings:
-      scanDelay: 20
-      advScanDelay: 40
+      scanDelay: 8
+      advScanDelay: 20
     scanningEndSound:
       path: "/Audio/Items/Medical/healthscanner.ogg"
   - type: Appearance
