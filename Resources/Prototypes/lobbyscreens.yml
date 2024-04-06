@@ -37,3 +37,8 @@
 - type: lobbyBackground
   id: Behonker
   background: /Textures/LobbyScreens/behonker.webp
+
+- type: lobbyBackground
+  id: Cadet
+  background: /Textures/LobbyScreens/cadet.webp #OrbitalOddyseyс made in Dima L.
+

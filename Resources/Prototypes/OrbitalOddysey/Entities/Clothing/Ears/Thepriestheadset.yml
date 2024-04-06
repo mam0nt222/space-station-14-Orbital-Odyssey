@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingHeadset
+  id: ThepriestsheadsetAlt
+  name: Полноразмерная гарнитура священника
+  description: Специальная гарнитура для связи с экзорцистами, теперь от производства НТ.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyService
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: OrbitalOddysey/Clothing/Ears/Headsets/church.rsi
+  - type: Clothing
+    sprite: OrbitalOddysey/Clothing/Ears/Headsets/church.rsi

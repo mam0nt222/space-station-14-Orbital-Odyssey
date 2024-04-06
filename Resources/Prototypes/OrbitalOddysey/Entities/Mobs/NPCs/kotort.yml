@@ -55,6 +55,8 @@
         reagents:
         - ReagentId: Sugar
           Quantity: 15
+        - ReagentId: Nutriment
+          Quantity: 15
 
   - type: MovementSpeedModifier
     baseWalkSpeed : 6
