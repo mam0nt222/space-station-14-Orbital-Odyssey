@@ -15,6 +15,7 @@
   - SeedExtractorMachineCircuitboard
   - HydroponicsTrayMachineCircuitboard
   - Plantanalyzer
+  - ReagentGrinderIndustrialMachineCircuitboard
 
 - type: technology
   id: CritterMechs

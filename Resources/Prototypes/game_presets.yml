@@ -124,6 +124,7 @@
   name: nukeops-title
   description: nukeops-description
   showInVote: true
+  minPlayers: 15
   rules:
     - Nukeops
     - SubGamemodesRule
