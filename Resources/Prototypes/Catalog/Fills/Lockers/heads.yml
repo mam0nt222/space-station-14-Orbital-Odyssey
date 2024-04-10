@@ -229,7 +229,7 @@
       - id: ClothingHeadCage # backmen
       - id: MetempsychoticMachineCircuitboard # backmen
       - id: MaterialBiomass # backmen
-
+      - id: Gen_Guns
 - type: entity
   id: LockerChiefMedicalOfficerFilled
   suffix: Filled
@@ -255,7 +255,7 @@
       - id: ClothingHeadCage # backmen
       - id: MetempsychoticMachineCircuitboard # backmen
       - id: MaterialBiomass # backmen
-
+      - id: Gen_Guns #OrbitalOdyssey
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
   suffix: Filled, Hardsuit
@@ -279,7 +279,7 @@
       - id: PonderingOrbTelepathic # backmen
       - id: ClothingHeadsetAltScience
       - id: EncryptionKeyBinary
-
+      - id: Gen_Guns #Orbital-Odyssey
 - type: entity
   id: LockerResearchDirectorFilled
   suffix: Filled

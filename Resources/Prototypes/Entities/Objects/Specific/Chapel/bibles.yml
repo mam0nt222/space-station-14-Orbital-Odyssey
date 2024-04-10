@@ -12,13 +12,18 @@
         Brute: -35
         Burn: -35
         Immaterial: -10
+        Genetic: -10 #OrbitalOddysey
+
     damageOnFail:
       groups:
         Brute: 15
         Airloss: 15
+        Genetic: 5 #OrbitalOddysey
     damageOnUntrainedUse: ## What a non-chaplain takes when attempting to heal someone
       groups:
         Burn: 10
+        Genetic: 5 #OrbitalOddysey
+
   - type: Prayable
     bibleUserOnly: true
   - type: Summonable
@@ -59,13 +64,16 @@
     damage:
       types:
         Caustic: 20 ## ~15 dps
+        Genetic: 5 #OrbitalOddysey
     damageOnFail:
       groups:
         Brute: 15
         Airloss: 25
+        Genetic: 5 #OrbitalOddysey
     damageOnUntrainedUse:
       types:
         Caustic: 50
+        Genetic: 10 #OrbitalOddysey
     failChance: 0
     locPrefix: "necro"
     healSound: "/Audio/Effects/lightburn.ogg"

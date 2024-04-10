@@ -25,6 +25,12 @@ health-analyzer-window-damage-type-Bloodloss = Кровопотеря
 health-analyzer-window-damage-group-Toxin = Токсины
 health-analyzer-window-damage-type-Poison = Яды
 health-analyzer-window-damage-type-Radiation = Радиация
-health-analyzer-window-damage-group-Genetic = Генетические
-health-analyzer-window-damage-type-Cellular = Клеточные
+
+#OrbitalOddysey
+health-analyzer-window-damage-group-Genetic = Генетические и Психологические 
+#OrbitalOddysey
+health-analyzer-window-damage-type-Cellular = Клетки
+#OrbitalOddysey
+health-analyzer-window-damage-type-Brainwashed = Психологические 
+
 health-analyzer-window-malnutrition = Тяжёлое недоедание

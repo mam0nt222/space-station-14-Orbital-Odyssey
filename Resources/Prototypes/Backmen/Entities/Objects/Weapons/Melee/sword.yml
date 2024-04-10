@@ -13,6 +13,7 @@
     damage:
       types:
         Slash: 17
+        Brainwashed: 3 #OrbitalOddysey
   - type: Item
     size: Normal
     sprite:
@@ -73,10 +74,12 @@
         Piercing: 10
         Slash: 20
         Blunt: 15
+        Brainwashed: 3 #OrbitalOddysey
     deactivatedDamage:
       types:
         Piercing: 5
         Blunt: 10
+        Brainwashed: 3 #OrbitalOddysey
   - type: ItemToggleDisarmMalus
     activatedDisarmMalus: 0.6
   - type: Item

@@ -8,7 +8,6 @@
   - type: Sprite
   - type: StaticPrice
     price: 20
-
 # Cautery
 
 - type: entity
@@ -26,7 +25,8 @@
   - type: MeleeWeapon
     damage:
        types:
-        Heat: 5
+        Heat: 3
+        Brainwashed: 0.5  #OrbitalOddysey
     soundHit:
       path: /Audio/Effects/lightburn.ogg
 
@@ -50,6 +50,7 @@
     damage:
       types:
         Piercing: 10
+        Brainwashed: 2  #OrbitalOddysey
     soundHit:
       path: /Audio/Items/drill_hit.ogg
   - type: StaticPrice
@@ -79,6 +80,7 @@
     damage:
       types:
         Slash: 8
+        Brainwashed: 1  #OrbitalOddysey
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
 
@@ -107,6 +109,7 @@
     damage:
       types:
         Slash: 12
+        Brainwashed: 1  #OrbitalOddysey
 
 - type: entity
   name: laser scalpel
@@ -190,6 +193,7 @@
     damage:
       groups:
         Brute: 10
+        Brainwashed: 1  #OrbitalOddysey
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
   - type: Tool
@@ -212,6 +216,7 @@
     damage:
       groups:
         Brute: 15
+        Brainwashed: 5  #OrbitalOddysey
     soundHit:
       path: /Audio/Items/drill_hit.ogg
   - type: Tool
@@ -235,6 +240,7 @@
     damage:
       groups:
         Brute: 15
+        Brainwashed: 5  #OrbitalOddysey
     soundHit:
       path: /Audio/Items/drill_hit.ogg
   - type: Tool

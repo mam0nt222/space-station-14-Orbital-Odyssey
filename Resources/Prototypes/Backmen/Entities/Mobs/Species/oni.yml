@@ -34,7 +34,7 @@
         layer:
         - MobLayer
   - type: Stamina
-    critThreshold: 115
+    critThreshold: 145
   - type: InteractionPopup
     successChance: 1
     interactSuccessString: hugging-success-generic

@@ -1,0 +1,15 @@
+
+- type: entity
+  parent: ClothingHeadsetAlt
+  id: HeadsetOwO
+  name: Гарнитура культа нежности
+  description: Гарнитура для маленьких и милых кошка девочек ,а так же кошка мальчиков.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: OrbitalOddysey/Clothing/Ears/Headsets/headsetOwO.rsi
+  - type: Clothing
+    sprite: OrbitalOddysey/Clothing/Ears/Headsets/headsetOwO.rsi

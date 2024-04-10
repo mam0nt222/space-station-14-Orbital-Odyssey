@@ -73,3 +73,7 @@
   id: FleshCultistAbilities
   name: store-category-abilities
 
+- type: storeCategory
+  id: UplinkReinforcements 
+  name: Подкрепления 
+  priority: 10

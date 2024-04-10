@@ -13,5 +13,7 @@
   - UplinkJob
   - UplinkArmor
   - UplinkPointless
+
+  - UplinkReinforcements # OrbitalOddysey
   currencyWhitelist:
   - Telecrystal

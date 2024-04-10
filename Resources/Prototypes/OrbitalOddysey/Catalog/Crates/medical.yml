@@ -1,0 +1,8 @@
+- type: entity
+  id: CrateMedicalSecure_Gen_Guns
+  name: Ящик с переборщиком генов основного типа
+  parent: CrateMedicalSecure
+  components:
+  - type: StorageFill
+    contents:
+      - id: Gen_Guns

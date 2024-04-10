@@ -425,9 +425,9 @@
   productEntity: ReinforcementRadioSyndicate
   icon: { sprite: Objects/Devices/communication.rsi, state: old-radio }
   cost:
-    Telecrystal: 16
+    Telecrystal: 10
   categories:
-  - UplinkUtility
+  - UplinkReinforcements #OrbitalOddysey
   conditions:
     - !type:StoreWhitelistCondition
       blacklist:
@@ -441,9 +441,9 @@
   productEntity: ReinforcementRadioSyndicateNukeops
   icon: { sprite: Objects/Devices/communication.rsi, state: old-radio }
   cost:
-    Telecrystal: 16
+    Telecrystal: 10
   categories:
-  - UplinkUtility
+  - UplinkReinforcements #OrbitalOddysey
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:
@@ -459,7 +459,7 @@
   cost:
     Telecrystal: 65
   categories:
-    - UplinkUtility
+  - UplinkReinforcements #OrbitalOddysey
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:
@@ -475,7 +475,7 @@
   cost:
     Telecrystal: 8
   categories:
-  - UplinkUtility
+  - UplinkReinforcements #OrbitalOddysey
   conditions:
     - !type:StoreWhitelistCondition
       blacklist:
@@ -491,7 +491,7 @@
   cost:
     Telecrystal: 8
   categories:
-  - UplinkUtility
+  - UplinkReinforcements #OrbitalOddysey
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:

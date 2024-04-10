@@ -15,6 +15,7 @@
       types:
         Slash: 25
         Piercing: 15
+        Brainwashed: 5 #OrbitalOddysey
   - type: Item
     size: Normal
     sprite: Objects/Weapons/Melee/armblade.rsi
@@ -22,3 +23,4 @@
     qualities:
       - Prying
   - type: Prying
+  - type: MeleeThrowOnHit #OrbitalOddysey
