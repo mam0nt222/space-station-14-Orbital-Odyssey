@@ -1,0 +1,144 @@
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: ClothingSocksBase
+  components:
+    - type: Sprite
+      state: icon
+    - type: Item
+      size: Small
+    - type: Clothing
+      slots: [socks]
+
+- type: entity
+  parent: ClothingSocksBase
+  id: BlackSocks
+  name: black socks
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/black_socks.rsi
+      state: icon
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/black_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: BlackStripedSocks
+  name: black striped socks
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/black_striped_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/black_striped_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: BlueSocks
+  name: blue socks
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/blue_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/blue_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: BlueStripedSocks
+  name: blue striped socks
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/blue_striped_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/blue_striped_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: GreenSocks
+  name: green socks
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/green_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/green_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: OrangeSocks
+  name: orange socks
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/orange_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/orange_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: PinkSocks
+  name: pink socks
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/pink_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/pink_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: WhiteSocks
+  name: white socks
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/white_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/white_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: WhiteLongSocks
+  name: white socks
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/white_long_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/white_long_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: BlackLongSocks
+  name: white socks
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/black_long_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/black_long_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: YellowStripedSocks
+  name: Yellow striped socks
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/yellow_striped_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/yellow_striped_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: BlueYellowStripedSocks
+  name: Blue-Yellow striped socks
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/blue_yellow_striped_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/blue_yellow_striped_socks.rsi

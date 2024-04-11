@@ -43,7 +43,6 @@
       #  visible: false
       - map: [ "underpants" ]
       - map: [ "bra" ]
-      - map: ["socks"]
       #- map: [ "jumpsuit" ]
       #  shader: StencilDraw
       - map: [ "enum.HumanoidVisualLayers.LHand" ]
@@ -58,6 +57,7 @@
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
         sprite: Mobs/Species/Vox/parts.rsi
         state: r_foot
+      - map: ["socks"]
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi
