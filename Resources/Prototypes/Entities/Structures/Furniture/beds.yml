@@ -9,6 +9,7 @@
       types:
         Poison: -0.1
         Blunt: -0.1
+        Brainwashed: -0.03
   - type: Physics
     bodyType: Static
   - type: Fixtures
@@ -166,6 +167,7 @@
     damage:
       types:
         Cold: -0.5
+        Brainwashed: -0.1
   - type: Destructible
     thresholds:
     - trigger:

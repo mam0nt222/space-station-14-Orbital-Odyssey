@@ -1,5 +1,20 @@
 
 - type: listing
+  id: UplinkUltrabrightCatSyndy
+  name: uplink-CatSyndy-name
+  description: uplink-CatSynd-desc
+  productEntity: ReinforcementRadioCatSyndy
+  cost:
+    Telecrystal: 3
+  categories:
+  - UplinkReinforcements
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - NukeOpsUplink
+
+- type: listing
   id: UplinkUltrabrightLantern_Felinid
   name: uplink-Felinid-name
   description: uplink-Felinid-desc
@@ -7,6 +22,25 @@
   cost:
     Telecrystal: 4
   categories:
-  - UplinkUtility
+  - UplinkReinforcements
 
 
+- type: listing
+  id: UplinkUltrabrightLantern_Doktori
+  name: uplink-Syndicate_Doktori-name
+  description: uplink-Syndicate_Doktori-desc
+  productEntity: ReinforcementRadioSyndicate_Doktori
+  cost:
+    Telecrystal: 14
+  categories:
+  - UplinkReinforcements
+
+- type: listing
+  id: UplinkUltrabrightLantern_Engineer
+  name: uplink-Syndicate_Engineer-name
+  description: uplink-Syndicate_Engineer-desc
+  productEntity: ReinforcementRadioSyndicate_Engineer
+  cost:
+    Telecrystal: 14
+  categories:
+  - UplinkReinforcements

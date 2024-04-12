@@ -163,6 +163,22 @@
           prob: 0.05
         - id: BookRandomStory
           prob: 0.1
+
+
+#OrbitalOdyssey
+        - id: ClothingHandsGlovesColorYellowUnsulated
+          prob: 0.005
+        - id: ClothingHandsDispelGloves
+          prob: 0.005
+        - id: BedsheetInvisibilityCloak
+          prob: 0.005
+        - id: ClothingEyesTelegnosisSpectacles
+          prob: 0.005
+        - id: HeadsetOwO
+          prob: 0.01
+        - id: ClothingOuterRobesCultTenderness
+          prob: 0.005
+
         # Syndicate loot
         - id: null
           prob: 0.95
@@ -265,6 +281,22 @@
           prob: 0.20
         - id: ModularReceiver
           prob: 0.1
+
+#OrbitalOdyssey
+        - id: ClothingHandsGlovesColorYellowUnsulated
+          prob: 0.005
+        - id: ClothingHandsDispelGloves
+          prob: 0.005
+        - id: BedsheetInvisibilityCloak
+          prob: 0.005
+        - id: ClothingEyesTelegnosisSpectacles
+          prob: 0.005
+
+        - id: HeadsetOwO
+          prob: 0.01
+        - id: ClothingOuterRobesCultTenderness
+          prob: 0.005
+
         # Syndicate loot
         - id: null
           prob: 0.95

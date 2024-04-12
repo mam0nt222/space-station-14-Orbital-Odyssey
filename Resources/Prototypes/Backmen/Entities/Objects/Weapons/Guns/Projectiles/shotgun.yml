@@ -11,6 +11,7 @@
       damage:
         types:
           Blunt: 1
+          Brainwashed: 2 #OrbitalOddysey
     - type: SolutionContainerManager
       solutions:
         ammo:

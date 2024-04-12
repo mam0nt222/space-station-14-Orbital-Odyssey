@@ -126,7 +126,7 @@
   cost:
     Telecrystal: 1
   categories:
-  - UplinkAllies
+  - UplinkExplosives
 
 - type: listing
   id: UplinkAntiPsiGrenadeBundle
@@ -136,7 +136,7 @@
   cost:
     Telecrystal: 2
   categories:
-  - UplinkAllies
+  - UplinkExplosives
 
 
 # Books
