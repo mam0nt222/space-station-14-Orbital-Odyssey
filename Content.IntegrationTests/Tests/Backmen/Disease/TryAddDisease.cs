@@ -37,10 +37,15 @@ public sealed class DiseaseTest
         {
             await server.WaitAssertion(() =>
             {
-                diseaseSystem.TryAddDisease(sickEntity, diseaseProto);
+                diseaseSystem.TryAddDisease(sickEntity, diseaseProto.ID);
             });
             await server.WaitIdleAsync();
-            server.RunTicks(1);
+            server.RunTicks(5);
+            await server.WaitAssertion(() =>
+            {
+                if(!entManager.HasComponent<DiseasedComponent>(sickEntity))
+                    Assert.Fail("MobHuman has not DiseasedComponent");
+            });
             if (!entManager.TryGetComponent<DiseaseCarrierComponent>(sickEntity, out var diseaseCarrierComponent))
             {
                 Assert.Fail("MobHuman has not DiseaseCarrierComponent");
@@ -62,9 +67,15 @@ public sealed class DiseaseTest
                 {
                     Assert.Fail("Disease not remove");
                 }
-                if (diseaseCarrierComponent.PastDiseases.All(x => x != diseaseProto.ID))
+
+                var hasNotImmuny = diseaseCarrierComponent.PastDiseases.All(x => x != diseaseProto.ID);
+                if (hasNotImmuny && diseaseProto.Infectious)
                 {
-                    Assert.Fail("Disease immunu not apply");
+                    Assert.Fail("Disease Infectious immunu not apply");
+                }
+                if (!hasNotImmuny && !diseaseProto.Infectious)
+                {
+                    Assert.Fail("Disease Not Infectious immunu apply");
                 }
             });
         }

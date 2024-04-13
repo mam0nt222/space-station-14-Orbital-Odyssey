@@ -2,7 +2,7 @@
   id: Cogmap
   mapName: 'Cogmap'
   mapPath: /Maps/Backmen/cogmap.yml
-  minPlayers: 55
+  minPlayers: 0
   stations:
     Cogmap:
       stationProto: StandardNanotrasenStation
@@ -66,7 +66,7 @@
             Boxer: [ 2, 2 ]
             Reporter: [ 2, 2 ]
              #silicon
-            BKBPLATech: [0, 3] 
-            BKBPLAMED: [0, 3] 
-            SAI: [1, 1] 
+            BKBPLATech: [0, 3]
+            BKBPLAMED: [0, 3]
+            SAI: [1, 1]
             Borg: [ 4, 4 ]
