@@ -1,6 +1,6 @@
 - type: entity
   name: Шоколадный Кототорт
-  description: Малыш Кототорт...
+  description: Самый шоколадный котик на станции. Пожалуйся не ешьте его..
   parent: [SimpleMobBase, FoodBreadSliceBase]
   id: MobCatKotortСhocolate
   components:
@@ -54,6 +54,8 @@
       food:
         reagents:
         - ReagentId: CocoaPowder
+          Quantity: 15
+        - ReagentId: Nutriment
           Quantity: 15
 
   - type: MovementSpeedModifier

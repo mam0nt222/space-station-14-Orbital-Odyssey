@@ -1,6 +1,6 @@
 - type: entity
   name: Лимонный Кототорт
-  description: Малыш Кототорт...
+  description: Самый кислый котик на станции. Пожалуйся не ешьте его..
   parent: [SimpleMobBase, FoodBreadSliceBase]
   id: MobCatKotortLemon
   components:
@@ -56,6 +56,8 @@
         reagents:
         - ReagentId: JuiceLemon
           Quantity: 15
+        - ReagentId: Nutriment
+          Quantity: 15
 
   - type: MovementSpeedModifier
     baseWalkSpeed : 6
@@ -88,6 +90,7 @@
       - sour
       - bad-joke
       - cat 
+     
 
   - type: Bloodstream
     bloodReagent: JuiceLemon

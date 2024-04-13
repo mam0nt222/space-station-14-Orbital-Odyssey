@@ -1,6 +1,6 @@
 - type: entity
   name: Бананово-ореховый Кототорт
-  description: Малыш Кототорт...
+  description: Самый ореховый котик на станции. Пожалуйся не ешьте его..
   parent: [SimpleMobBase, FoodBreadSliceBase]
   id: MobCatKotortBananaPeanut
   components:
@@ -56,6 +56,9 @@
         reagents:
         - ReagentId: JuiceBanana
           Quantity: 15
+        - ReagentId: Nutriment
+          Quantity: 15
+      
 
   - type: MovementSpeedModifier
     baseWalkSpeed : 6
