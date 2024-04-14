@@ -1,0 +1,40 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: Нalo_angelic
+  name: Голографический нимб
+  description: Какое лицемерие носить его...
+  components:
+  - type: Sprite
+    sprite: OrbitalOddysey/Clothing/Neck/Нalo/halo.rsi
+  - type: Clothing
+    sprite: OrbitalOddysey/Clothing/Neck/Нalo/halo.rsi
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: ClothingNeckBase
+  id: Нalo_angelicGod
+  name: Истинный нимб!
+  description: Я ИЗБРАННЫЙ! 
+  suffix: Божественное проявление (экипировка Нalo_angelicGod)
+  components:
+  - type: Sprite
+    sprite: OrbitalOddysey/Clothing/Neck/Нalo/halo.rsi
+  - type: Clothing
+    sprite: OrbitalOddysey/Clothing/Neck/Нalo/halo.rsi
+  - type: Unremoveable
+  - type: ClothingSpeedModifier
+    walkModifier: 1.25
+    sprintModifier: 1.25
+  - type: Item
+    size: Tiny
+  - type: PointLight
+    enabled: true
+    color: "#eaff00"
+    radius: 2.0
+    energy: 2.0
+    netsync: false
+- type: startingGear
+  id: Нalo_angelicGod
+  equipment:
+    neck: Нalo_angelicGod
