@@ -1,0 +1,10 @@
+- type: cargoProduct
+  id: MedicalSupplies_Gen_Guns
+  icon:
+    sprite: OrbitalOddysey/Objects/Weapons/Guns/Misc/Gen_Guns.rsi
+    state: sleeping
+  product: CrateMedicalSecure_Gen_Guns
+  cost: 30000
+  category: Medical
+  group: market
+
