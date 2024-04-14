@@ -9,7 +9,10 @@
       - id: ClothingNeckCloakPirateCap
       - id: EnergyCutlass
       - id: MicroBombImplanter
-
+      - id: HyposprayPirate
+      - id: OmnizineChemistryBottle 
+      - id: OmnizineChemistryBottle 
+      - id: OmnizineChemistryBottle 
 - type: entity
   id: CratePirateChest
   name: crews pirate chest
@@ -29,3 +32,6 @@
         amount: 4
       - id: WeaponShotgunBlunderbuss
         amount: 2
+      - id: ShellShotgun
+        amount: 6
+

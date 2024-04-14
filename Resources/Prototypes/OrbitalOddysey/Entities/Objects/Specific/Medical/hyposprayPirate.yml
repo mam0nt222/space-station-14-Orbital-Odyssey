@@ -1,0 +1,26 @@
+- type: entity
+  name: Пиратский гипоспрей 
+  parent: BaseItem 
+  description: Гипоспрей, который явно является некачественной подделкой. Украшенный золотом и серебром, его владелец явно обладает большими средствами. 
+  id: HyposprayPirate
+  components:
+  - type: Sprite
+    sprite: OrbitalOddysey/Objects/Specific/Medical/hyposprayPirate.rsi
+    state: hypo
+  - type: Item
+    sprite: OrbitalOddysey/Objects/Specific/Medical/hyposprayPirate.rsi
+  - type: SolutionContainerManager
+    solutions:
+      hypospray:
+        maxVol: 10
+  - type: RefillableSolution
+    solution: hypospray
+  - type: ExaminableSolution
+    solution: hypospray
+  - type: Hypospray
+    onlyMobs: false
+  - type: UseDelay
+    delay: 0.5
+  - type: StaticPrice
+    price: 750
+ 
