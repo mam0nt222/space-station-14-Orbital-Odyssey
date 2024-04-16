@@ -13,7 +13,7 @@
 - type: entity
   parent: ClothingSocksBase
   id: BlackSocks
-  name: black socks
+  name: Black socks
   description:
   components:
     - type: Sprite
@@ -25,7 +25,7 @@
 - type: entity
   parent: ClothingSocksBase
   id: BlackStripedSocks
-  name: black striped socks
+  name: Black striped socks
   description:
   components:
     - type: Sprite
@@ -36,7 +36,7 @@
 - type: entity
   parent: ClothingSocksBase
   id: BlueSocks
-  name: blue socks
+  name: Blue socks
   description:
   components:
     - type: Sprite
@@ -102,7 +102,7 @@
 - type: entity
   parent: ClothingSocksBase
   id: WhiteLongSocks
-  name: white socks
+  name: white long socks
   description:
   components:
     - type: Sprite
@@ -142,3 +142,97 @@
       sprite: OrbitalOddysey/Clothing/Socks/blue_yellow_striped_socks.rsi
     - type: Clothing
       sprite: OrbitalOddysey/Clothing/Socks/blue_yellow_striped_socks.rsi
+ 
+- type: entity
+  parent: ClothingSocksBase
+  id: PinkStripedSocks
+  name: pink striped socks
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/pink_striped_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/pink_striped_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: CatSocks
+  name: socks in the form of two cats
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/cat_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/cat_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: YellowWhiteStripedSocks
+  name: yellow socks with white stripes on top
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/yellow_striped_white_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/yellow_striped_white_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: BlackWhiteStripedSocks
+  name: Black socks with white stripes on top
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/black_striped_white_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/black_striped_white_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: WhiteBlackStripedSocks
+  name: White socks with black stripes on top
+  description:
+  components:
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/white_striped_black_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/white_striped_black_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: LongDarkSocks
+  name: Long dark socks
+  description:
+  components: 
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/long_dark_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/long_dark_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: BlackOrangeStripedSocks
+  name: Black socks with orange stripes on top
+  description:
+  components: 
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/black_orange_striped_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/black_orange_striped_socks.rsi
+
+- type: entity
+  parent: ClothingSocksBase
+  id: BlackOrangePatternSocks
+  name: Black socks with orange pattern
+  description:
+  components: 
+    - type: Sprite
+      sprite: OrbitalOddysey/Clothing/Socks/black_orange_pattern_socks.rsi
+    - type: Clothing
+      sprite: OrbitalOddysey/Clothing/Socks/black_orange_pattern_socks.rsi
+
+
+
+
+
+
