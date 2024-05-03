@@ -1,6 +1,6 @@
 - type: entity
   name: Пиратский гипоспрей 
-  parent: BaseItem 
+  parent: Hypospray
   description: Гипоспрей, который явно является некачественной подделкой. Украшенный золотом и серебром, его владелец явно обладает большими средствами. 
   id: HyposprayPirate
   components:
