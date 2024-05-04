@@ -1,0 +1,44 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: Нalo_softness
+  name: Голографический ушки
+  description: Нежность, обнимашки, поцелуи.
+  components:
+  - type: Sprite
+    sprite: OrbitalOddysey/Clothing/Neck/Нalo/halo_softness.rsi
+  - type: Clothing
+    sprite: OrbitalOddysey/Clothing/Neck/Нalo/halo_softness.rsi
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: ClothingNeckBase
+  id: Нalo_softnessGod
+  name: Истинная метка нежности! 
+  description: Двожите негодяи >w< Выцарь нежности уже здесь OwO
+  suffix: Божественное проявление (экипировка Нalo_softnessGod)
+  components:
+  - type: Sprite
+    sprite: OrbitalOddysey/Clothing/Neck/Нalo/halo_softness.rsi
+  - type: Clothing
+    sprite: OrbitalOddysey/Clothing/Neck/Нalo/halo_softness.rsi
+  - type: Unremoveable
+  - type: ClothingSpeedModifier
+    walkModifier: 1.25
+    sprintModifier: 1.25
+  - type: Item
+    size: Tiny
+  - type: AddAccentClothing
+    accent: OwOAccent
+  - type: PointLight
+    enabled: true
+    color: "#FFFFFF"
+    radius: 2.0
+    energy: 2.0
+    netsync: false
+- type: startingGear
+  id: Нalo_softnessGod
+  equipment:
+    neck: Нalo_softnessGod
+
+

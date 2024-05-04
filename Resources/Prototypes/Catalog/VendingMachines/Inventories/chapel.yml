@@ -21,6 +21,10 @@
     BoxCandleSmall: 2
     Urn: 5
     ThepriestsheadsetAlt: 2        #OrbitalOddysey
+
+    Нalo_malice: 1 #OrbitalOdyssey
+    Нalo_angelic: 1 #OrbitalOdyssey
+    Нalo_softness: 1 #OrbitalOdyssey
   emaggedInventory:
     ClothingOuterArmorCult: 1
     ClothingHeadHelmetCult: 1
@@ -29,3 +33,4 @@
     ClothingShoesCult: 4
     BedsheetCult: 4
     ClothingNeckScarfStripedBlack: 3
+    Нalo_malice: 3 #OrbitalOdyssey

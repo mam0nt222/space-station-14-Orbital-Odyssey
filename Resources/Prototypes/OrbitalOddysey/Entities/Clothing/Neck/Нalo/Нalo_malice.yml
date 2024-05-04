@@ -1,0 +1,53 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: Нalo_malice
+  name: Голографический знак злобы
+  description: Время злодеев!
+  components:
+  - type: Sprite
+    sprite: OrbitalOddysey/Clothing/Neck/Нalo/halo_malice.rsi
+  - type: Clothing
+    sprite: OrbitalOddysey/Clothing/Neck/Нalo/halo_malice.rsi
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: ClothingNeckBase
+  id: Нalo_maliceGod
+  name: Истинный знак злобы!
+  description: Я достоин этой короны! 
+  suffix: Божественное проявление (экипировка Нalo_softnessGod)
+  components:
+  - type: Sprite
+    sprite: OrbitalOddysey/Clothing/Neck/Нalo/halo_malice.rsi
+  - type: Clothing
+    sprite: OrbitalOddysey/Clothing/Neck/Нalo/halo_malice.rsi
+  - type: Unremoveable
+  - type: ClothingSpeedModifier
+    walkModifier: 1.10
+    sprintModifier: 1.10
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.80
+        Piercing: 0.80
+        Caustic: 0.80
+        Stun: 0.50
+
+  - type: Item
+    size: Tiny
+
+  - type: PointLight
+    enabled: true
+    color: "#b30000"
+    radius: 2.0
+    energy: 2.0
+    netsync: false
+
+- type: startingGear
+  id: Нalo_maliceGod
+  equipment:
+    neck: Нalo_maliceGod
+
+
