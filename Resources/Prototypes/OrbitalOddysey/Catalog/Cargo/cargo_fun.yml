@@ -5,6 +5,6 @@
     state: sleeping
   product: CrateLivestock_MobXenoMaid
   cost: 25000
-  category: Fun
+  category: cargoproduct-category-name-livestock
   group: market
 
