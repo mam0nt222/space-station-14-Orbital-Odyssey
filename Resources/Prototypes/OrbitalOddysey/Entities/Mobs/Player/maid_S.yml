@@ -1,7 +1,7 @@
 
 - type: entity
   parent: MobHuman
-  id: MobFelinidS
+  id: MobFelinidSS
   name: Горничная Синдиката
   suffix: Горничная Синдиката
   components:
@@ -15,15 +15,13 @@
 
     - type: RandomMetadata
     - type: RandomHumanoidAppearance
-
-
-
+    - type: NukeOperative
 - type: startingGear
   id: FelinidSS
   equipment:
     head: ClothingHeadHatTacticalMaidHeadband
     jumpsuit: ClothingUniformJumpskirtTacticalMaid
-    back: ClothingBSyndicate
+    back: ClothingBSyndicateSFelinidSS
     shoes: ClothingShoesSwat
     id: SyndiAgentPDA
     ears: ClothingHeadsetAltSyndicate
@@ -32,10 +30,12 @@
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicate
-  id: ClothingBSyndicate
+  id: ClothingBSyndicateSFelinidSS
   name: вещмешок синдиката
   description: Большой вещмешок для хранения дополнительных предательских предметов.
+  suffix: Горничная Синдиката
   components:
+
   - type: StorageFill
     contents:
       - id: BalloonSyn
@@ -43,7 +43,7 @@
 
       - id: MopItem
       - id: ClothingHeadPyjamaSyndicateRed
-      - id: ClothingUniformJumpsuitPyjamaSyndicateRed
+
       - id: ClothingNeckSyndicakePin
 
       - id: BoxSurvivalSyndicate

@@ -1,0 +1,72 @@
+
+- type: entity
+  parent: MobHuman
+  id: MobFelinidSyndicatesFieldDoctor
+  name: Полевой врач синдиката
+  suffix: врач синдиката
+  components:
+    - type: Loadout
+      prototypes: [FieldDoctorsEquipment]
+ #   - type: RandomMetadata
+ #     nameSegments: [corvax_names_death_commando] # Corvax-Localization
+    - type: NpcFactionMember
+      factions:
+      - Syndicate
+
+    - type: RandomMetadata
+    - type: RandomHumanoidAppearance
+
+    - type: NukeOperative
+
+- type: startingGear
+  id: FieldDoctorsEquipment
+  equipment:
+
+    head: ClothingHeadHelmetSwatSyndicate
+    jumpsuit: ClothingUniformJumpsuitParamedicSyndie
+
+    back: TheSyndicatesFieldDoctorsDuffelBag
+
+    shoes: ClothingShoesBootsCombatFilled
+
+    id: SyndiAgentPDA
+
+    ears: ClothingHeadsetAltSyndicate
+
+    pocket1: HandheldHealthAnalyzer
+    pocket2: ClothingMedicalPounch
+
+    gloves: ClothingHandsGlovesNitrile
+
+    mask: ClothingMaskBreathMedicalSecurity
+    eyes: ClothingEyesEyepatchHudMedical
+    belt: ClothingBeltMilitaryWebbingMedFilled
+    outerClothing: ClothingOuterSyndicateDoctor
+- type: entity
+  parent: ClothingBackpackDuffelSyndicate
+  id: TheSyndicatesFieldDoctorsDuffelBag
+  name: вещмешок поливого врача синдиката
+  description: Большой вещмешок для хранения дополнительных предательских предметов.
+  components:
+  - type: StorageFill
+    contents:
+      - id: Defibrillator
+
+      - id: CombatMedipen
+      - id: CombatMedipen
+      - id: CombatMedipen
+
+      - id: BookMedicalReferenceBook
+
+      - id: MedkitCombatFilled
+
+      - id: ScalpelAdvanced
+      - id: Retractor
+      - id: Hemostat
+      - id: Cautery
+      - id: Drill
+      - id: SawAdvanced
+
+      - id: BoxSurvivalSyndicate
+
+      - id: Syringe

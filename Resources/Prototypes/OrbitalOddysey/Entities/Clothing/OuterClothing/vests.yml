@@ -1,0 +1,19 @@
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ClothingOuterSyndicateDoctor
+  name: Бронежилет полевого медика синдиката
+  description: Ееееее сейчас меня вылечат... вылечат же....?
+  components:
+  - type: Sprite
+    sprite: OrbitalOddysey/Clothing/OuterClothing/Vests/armor_syn_med.rsi
+  - type: Clothing
+    sprite: OrbitalOddysey/Clothing/OuterClothing/Vests/armor_syn_med.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.65
+        Piercing: 0.50
+        Caustic: 0.80
+    #    Stun: 0.0

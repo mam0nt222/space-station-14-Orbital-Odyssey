@@ -1,0 +1,83 @@
+- type: entity
+  parent: BaseItem
+  id: ReinforcementRadioSyndicate_Felinid
+  name: Радио подкрепления синдиката
+  description: Призовите на помощь горничную синдиката сомнительного качества, мгновенно! Предоставляется только бесполезное снаряжение.
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+    layers:
+    - state: old-radio
+  - type: GhostRole
+    name: Горничная Синдиката
+    description: Вы первая горничная синдиката которую мы можем отправить ему на помощь! (вы не чего не умеете)
+    rules: ghost-role-information-syndicate-reinforcement-rules
+  - type: GhostRoleMobSpawner
+    prototype: MobFelinidS
+  - type: EmitSoundOnUse
+    sound: /Audio/Effects/Emotes/parp1.ogg
+  - type: UseDelay
+    delay: 300
+
+- type: entity
+  parent: BaseItem
+  id: ReinforcementRadioSyndicate_Doktori
+  name: Радио подкрепления синдиката
+  description: Призовите на помощь полевого врача синдиката сомнительного качества, мгновенно! Предоставляется только медицинское снаряжение.
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+    layers:
+    - state: old-radio
+  - type: GhostRole
+    name: Врача Синдиката
+    description: Вы первая врач синдиката которую мы можем отправить ему на помощь! 
+    rules: ghost-role-information-syndicate-reinforcement-rules
+  - type: GhostRoleMobSpawner
+    prototype: MobFelinidSyndicatesFieldDoctor
+  - type: EmitSoundOnUse
+    sound: /Audio/Effects/Emotes/parp1.ogg
+  - type: UseDelay
+    delay: 300
+
+- type: entity
+  parent: BaseItem
+  id: ReinforcementRadioSyndicate_Engineer
+  name: Радио подкрепления синдиката
+  description: Призовите на помощь полевого инженера синдиката сомнительного качества, мгновенно! Предоставляется только инжинераное снаряжение синдиката.
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+    layers:
+    - state: old-radio
+  - type: GhostRole
+    name: Инженер Синдиката
+    description: Вы первая инженер синдиката которую мы можем отправить ему на помощь! 
+    rules: ghost-role-information-syndicate-reinforcement-rules
+  - type: GhostRoleMobSpawner
+    prototype: MobFelinidSyndicatesEngineer
+  - type: EmitSoundOnUse
+    sound: /Audio/Effects/Emotes/parp1.ogg
+  - type: UseDelay
+    delay: 300
+
+- type: entity
+  parent: BaseItem
+  id: ReinforcementRadioCatSyndy
+  name: Радио подкрепления ядерного котика синдиката
+  description: Призовите на помощь ядерного котика синдиката!
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+    layers:
+    - state: old-radio
+  - type: GhostRole
+    name: Ядерный кот
+    description: Вы первая котик синдиката которую мы можем отправить ему на помощь! 
+    rules: ghost-role-information-syndicate-reinforcement-rules
+  - type: GhostRoleMobSpawner
+    prototype: MobCatSyndy
+  - type: EmitSoundOnUse
+    sound: /Audio/Effects/Emotes/parp1.ogg
+  - type: UseDelay
+    delay: 300

@@ -78,3 +78,8 @@
   id: FleshCultistAbilities
   name: store-category-abilities
 
+#OrbitalOdyssey
+- type: storeCategory
+  id: UplinkReinforcements 
+  name: Подкрепления 
+  priority: 12

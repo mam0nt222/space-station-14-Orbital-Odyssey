@@ -23,6 +23,7 @@
         Slash: 2
         Blunt: 2
         Structural: 4
+        Brainwashed: 1 #OrbitalOddysey
     soundHit:
       path: /Audio/Weapons/chainsaw.ogg
       params:
@@ -32,6 +33,7 @@
       types:
         Slash: 4
         Structural: 4
+        Brainwashed: 2 #OrbitalOddysey
   - type: Item
     size: Normal
     sprite: Objects/Weapons/Melee/chainsaw.rsi

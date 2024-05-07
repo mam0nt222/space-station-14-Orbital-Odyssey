@@ -11,6 +11,7 @@
         types:
           Slash: 10
           Holy: 3
+          Brainwashed: 3 #OrbitalOddysey
     - type: StaminaDamageOnHit
       damage: 0
     - type: AntiPsionicWeapon
@@ -20,6 +21,7 @@
           Slash: 1.2
           Piercing: 1.2
           Holy: 1.2
+          Brainwashed: 1.2 #OrbitalOddysey
     - type: Sprite
       sprite: Backmen/Objects/Weapons/Melee/anti_psychic_knife.rsi
       state: icon

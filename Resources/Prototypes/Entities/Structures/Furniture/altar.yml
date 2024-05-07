@@ -477,3 +477,15 @@
   - type: Construction
     graph: BananiumAltarGraph
     node: bananiumAltar
+
+#OrbitalOddysey
+- type: entity
+  id: AltarSoftness
+  parent: AltarBase
+  name: Алтарь культа нежности
+  description: Мы больше не будем вабами OwO.
+  components:
+  - type: Sprite
+    sprite: OrbitalOddysey/Structures/Furniture/Altars/Cults/softness.rsi
+    state: full
+

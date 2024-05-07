@@ -1,5 +1,5 @@
 # TODO: make more categories
-# Guns
+# Gunsuplink_catalog
 
 - type: listing
   id: UplinkPistolViper
@@ -871,7 +871,7 @@
   cost:
     Telecrystal: 14
   categories:
-  - UplinkAllies
+  - UplinkImplants
   conditions:
   - !type:StoreWhitelistCondition
     blacklist:
@@ -885,9 +885,9 @@
   productEntity: ReinforcementRadioSyndicate
   icon: { sprite: Objects/Devices/communication.rsi, state: old-radio }
   cost:
-    Telecrystal: 16
+    Telecrystal: 10
   categories:
-  - UplinkAllies
+  - UplinkReinforcements #OrbitalOddysey
   conditions:
   - !type:StoreWhitelistCondition
     blacklist:
@@ -901,9 +901,9 @@
   productEntity: ReinforcementRadioSyndicateNukeops
   icon: { sprite: Objects/Devices/communication.rsi, state: old-radio }
   cost:
-    Telecrystal: 16
+    Telecrystal: 10
   categories:
-  - UplinkAllies
+  - UplinkReinforcements #OrbitalOddysey
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -917,9 +917,9 @@
   productEntity: ReinforcementRadioSyndicateCyborgAssault
   icon: { sprite: Mobs/Silicon/chassis.rsi, state: synd_sec }
   cost:
-    Telecrystal: 65
+    Telecrystal: 60
   categories:
-  - UplinkAllies
+  - UplinkReinforcements #OrbitalOddysey
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -935,7 +935,7 @@
   cost:
     Telecrystal: 6
   categories:
-  - UplinkAllies
+  - UplinkReinforcements #OrbitalOddysey
   conditions:
   - !type:StoreWhitelistCondition
     blacklist:
@@ -951,7 +951,7 @@
   cost:
     Telecrystal: 6
   categories:
-  - UplinkAllies
+  - UplinkReinforcements #OrbitalOddysey
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -966,28 +966,28 @@
   cost:
     Telecrystal: 2
   categories:
-  - UplinkAllies
+  - UplinkReinforcements
   conditions:
   - !type:StoreWhitelistCondition
     blacklist:
       tags:
       - NukeOpsUplink
 
-- type: listing
-  id: UplinkMobCatMicrobomb
-  name: uplink-mobcat-microbomb-name
-  description: uplink-mobcat-microbomb-desc
-  icon: { sprite: /Textures/Mobs/Pets/cat.rsi, state: syndicat }
-  productEntity: MobCatSyndy
-  cost:
-    Telecrystal: 10
-  categories:
-  - UplinkAllies
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - NukeOpsUplink
+#- type: listing
+#  id: UplinkMobCatMicrobomb
+ # name: uplink-mobcat-microbomb-name
+  #description: uplink-mobcat-microbomb-desc
+#  icon: { sprite: /Textures/Mobs/Pets/cat.rsi, state: syndicat }
+ # productEntity: MobCatSyndy
+#  cost:
+ #   Telecrystal: 10
+  #categories:
+  #- UplinkAllies
+  #conditions:
+  #- !type:StoreWhitelistCondition
+   # whitelist:
+    #  tags:
+     # - NukeOpsUplink
 
 - type: listing
   id: UplinkSyndicatePersonalAI
@@ -998,7 +998,7 @@
   cost:
     Telecrystal: 1
   categories:
-  - UplinkAllies
+  - UplinkReinforcements
   conditions:
   - !type:ListingLimitedStockCondition
     stock: 1
@@ -1326,7 +1326,7 @@
   cost:
     Telecrystal: 2
   categories:
-    - UplinkWearables
+    - UplinkPointless
 
  # Pointless
 

@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobesCultTenderness
+  name: роба культа нежности
+  description: Ловите этого культиста! А хотя... вроде всё нормально
+  components:
+  - type: Sprite
+    sprite: OrbitalOddysey/Clothing/OuterClothing/Misc/cultrobes.rsi
+  - type: Clothing
+    sprite: OrbitalOddysey/Clothing/OuterClothing/Misc/cultrobes.rsi
