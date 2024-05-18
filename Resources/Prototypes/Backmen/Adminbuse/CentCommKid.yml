@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadset
+  parent: [ClothingHeadset, ShowSecurityIcons]
   id: ClothingHeadsetEarthGov
   name: Гарнитура EarthGov
   description: Стандартная гарнитура EarthGov.
@@ -12,7 +12,6 @@
     sprite: Backmen/Clothing/Ears/Headsets/ueg.rsi
   - type: Clothing
     sprite: Backmen/Clothing/Ears/Headsets/ueg.rsi
-  - type: ShowSecurityIcons
   - type: UnpoweredFlashlight
   - type: PointLight
     enabled: false
@@ -40,8 +39,8 @@
   - type: ActivatableUIRequiresPower
   - type: UserInterface
     interfaces:
-    - key: enum.CommunicationsConsoleUiKey.Key
-      type: CommunicationsConsoleBoundUserInterface
+      enum.CommunicationsConsoleUiKey.Key:
+        type: CommunicationsConsoleBoundUserInterface
   - type: Computer
     board: CommsComputerCircuitboardCentComm
   - type: PointLight
@@ -264,7 +263,7 @@
     sprite: Clothing/Ears/Headsets/robotics.rsi
 
 - type: entity
-  parent: ClothingHeadset
+  parent: [ClothingHeadset,ShowSecurityIcons]
   id: ClothingHeadsetCentComCC
   suffix: CentCom
   name: Гарнитура оператора ЦК
@@ -278,16 +277,14 @@
     sprite: Clothing/Ears/Headsets/centcom.rsi
   - type: Clothing
     sprite: Clothing/Ears/Headsets/centcom.rsi
-  - type: ShowSecurityIcons
 
 - type: entity
-  parent: ClothingHeadsetAlt
+  parent: [ClothingHeadsetAlt,ShowSecurityIcons]
   id: ClothingHeadsetCentComCCAltDeath
   suffix: CentCom
   name: Гарнитура Эскадрона Смерти
   description: Стандартная гарнитура ЦК.
   components:
-  - type: ShowSecurityIcons
   - type: ContainerFill
     containers:
       key_slots:
@@ -298,13 +295,12 @@
     sprite: Clothing/Ears/Headsets/centcom.rsi
 
 - type: entity
-  parent: ClothingHeadset
+  parent: [ClothingHeadset,ShowSecurityIcons]
   id: ClothingHeadsetCentComCCMTFEPS11
   suffix: CentCom
   name: Гарнитура ОБР
   description: Стандартная гарнитура ЦК.
   components:
-  - type: ShowSecurityIcons
   - type: ContainerFill
     containers:
       key_slots:
@@ -315,13 +311,12 @@
     sprite: Clothing/Ears/Headsets/centcom.rsi
 
 - type: entity
-  parent: ClothingHeadset
+  parent: [ClothingHeadset,ShowSecurityIcons]
   id: ClothingHeadsetCentComCCMTFSR6
   suffix: CentCom
   name: Гарнитура ОБР
   description: Стандартная гарнитура ЦК.
   components:
-  - type: ShowSecurityIcons
   - type: ContainerFill
     containers:
       key_slots:
@@ -332,13 +327,12 @@
     sprite: Clothing/Ears/Headsets/centcom.rsi
 
 - type: entity
-  parent: ClothingHeadset
+  parent: [ClothingHeadset,ShowSecurityIcons]
   id: ClothingHeadsetCentComCCMTFTHT9
   suffix: CentCom
   name: Гарнитура ОБР
   description: Стандартная гарнитура ЦК.
   components:
-  - type: ShowSecurityIcons
   - type: ContainerFill
     containers:
       key_slots:
@@ -349,13 +343,12 @@
     sprite: Clothing/Ears/Headsets/centcom.rsi
 
 - type: entity
-  parent: ClothingHeadset
+  parent: [ClothingHeadset,ShowSecurityIcons]
   id: ClothingHeadsetCentComCCMTF
   suffix: CentCom
   name: Гарнитура ОБР
   description: Стандартная гарнитура ЦК.
   components:
-  - type: ShowSecurityIcons
   - type: ContainerFill
     containers:
       key_slots:
@@ -366,13 +359,12 @@
     sprite: Clothing/Ears/Headsets/centcom.rsi
 
 - type: entity
-  parent: ClothingHeadsetAlt
+  parent: [ClothingHeadsetAlt,ShowSecurityIcons]
   id: ClothingHeadsetCentComCCAlt
   suffix: CentCom
   name: Гарнитура офицера ЦК
   description: Стандартная гарнитура ЦК.
   components:
-  - type: ShowSecurityIcons
   - type: ContainerFill
     containers:
       key_slots:
@@ -488,9 +480,9 @@
   description: Эти тактические перчатки огнеупорны и ударопрочны.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/ihscombat.rsi
+    sprite: Backmen/Clothing/Hands/Gloves/ihscombat.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/ihscombat.rsi
+    sprite: Backmen/Clothing/Hands/Gloves/ihscombat.rsi
   - type: Fiber
     fiberMaterial: fibers-durathread
   - type: FingerprintMask
@@ -570,9 +562,28 @@
         Piercing: 0.70
         Heat: 0.90
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/Color/black.rsi
+    sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+    layers:
+    - state: icon
+      color: "#3f3f3f"
+    - state: trinkets-icon
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#3f3f3f"
+      - state: trinkets-inhand-left
+      right:
+      - state: inhand-right
+        color: "#3f3f3f"
+      - state: trinkets-inhand-right
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/Color/black.rsi
+    sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+    clothingVisuals:
+      jumpsuit:
+      - state: equipped-INNERCLOTHING
+        color: "#3f3f3f"
+      - state: trinkets-equipped-INNERCLOTHING
   - type: SuitSensor
     controlsLocked: true
     randomMode: false
@@ -678,13 +689,11 @@
   - type: SolutionContainerManager
     solutions:
       pen:
-        maxVol: 55
+        maxVol: 40
         reagents:
-        - ReagentId: Omnizine
+        - ReagentId: Ultravasculine
           Quantity: 20
         - ReagentId: Epinephrine
-          Quantity: 15
-        - ReagentId: THC
           Quantity: 10
         - ReagentId: Ambuzol
           Quantity: 10
@@ -695,7 +704,7 @@
     sprite: Objects/Specific/Medical/medipen.rsi
     netsync: false
     layers:
-    - state: hypovolemic
+    - state: penacid
       map: [ "enum.SolutionContainerLayers.Fill" ]
 
 - type: entity
@@ -973,12 +982,12 @@
     energy: 2
     color: cyan
   - type: EnergySword
-    litDamageBonus:
-        types:
-            Slash: 15
-            Heat: 30
-            Blunt: -4.5
-    litDisarmMalus: 0.6
+#    litDamageBonus:
+#        types:
+#            Slash: 15
+#            Heat: 30
+#            Blunt: -4.5
+#    litDisarmMalus: 0.6
 
 - type: speechSounds
   id: Metrocop
@@ -1725,16 +1734,63 @@
     board: ShuttleConsoleCircuitboard
 
 - type: entity
-  parent: ClothingMaskGasERT
+  parent: [ClothingMaskGasERT,ShowSecurityIcons]
   id: ClothingMaskGasERTV2_1
   components:
-  - type: ShowSecurityIcons
+  - type: ActivatableUI
+    key: enum.SharedGasTankUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.SharedGasTankUiKey.Key:
+        type: GasTankBoundUserInterface
+  - type: GasTank
+    outputPressure: 21.3
+    air:
+      volume: 5
+      moles:
+        - 2.051379050 # oxygen
+      temperature: 293.15
+    tankLowPressure: 30.0
 
 - type: entity
-  parent: ClothingMaskGasDeathSquad
+  parent: [ClothingMaskGasDeathSquad,ShowSecurityIcons]
   id: ClothingMaskGasDeathSquadV2_1
   components:
-  - type: ShowSecurityIcons
+  - type: ActivatableUI
+    key: enum.SharedGasTankUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.SharedGasTankUiKey.Key:
+        type: GasTankBoundUserInterface
+  - type: GasTank
+    outputPressure: 21.3
+    air:
+      volume: 5
+      moles:
+        - 2.051379050 # oxygen
+      temperature: 293.15
+    tankLowPressure: 30.0
+
+- type: entity
+  parent: [ClothingMaskGasExplorer,ShowSecurityIcons]
+  id: ClothingMaskGasRXBZZ
+  name: армейский противогаз
+  description: Противогаз армейского класса, который можно подключить к дыхательному баллону.
+  components:
+  - type: ActivatableUI
+    key: enum.SharedGasTankUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.SharedGasTankUiKey.Key:
+        type: GasTankBoundUserInterface
+  - type: GasTank
+    outputPressure: 21.3
+    air:
+      volume: 5
+      moles:
+        - 2.051379050 # oxygen
+      temperature: 293.15
+    tankLowPressure: 30.0
 
 - type: parallax
   id: FastSky

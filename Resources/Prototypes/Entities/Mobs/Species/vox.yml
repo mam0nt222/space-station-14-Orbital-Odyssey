@@ -26,6 +26,9 @@
       - map: [ "enum.HumanoidVisualLayers.LArm" ]
         sprite: Mobs/Species/Vox/parts.rsi
         state: l_arm
+
+      - map: ["socks"]
+
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
         sprite: Mobs/Species/Vox/parts.rsi
         state: r_leg
@@ -43,6 +46,7 @@
       #  visible: false
       - map: [ "underpants" ]
       - map: [ "bra" ]
+
       #- map: [ "jumpsuit" ]
       #  shader: StencilDraw
       - map: [ "enum.HumanoidVisualLayers.LHand" ]
@@ -57,7 +61,6 @@
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
         sprite: Mobs/Species/Vox/parts.rsi
         state: r_foot
-      - map: ["socks"]
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi
@@ -90,6 +93,16 @@
     #- type: VoxAccent # Not yet coded
   - type: Inventory
     speciesId: vox
+    displacements:
+      jumpsuit:
+        layer:
+          sprite: Mobs/Species/Vox/displacement.rsi
+          state: jumpsuit
+          copyToShaderParameters:
+            # Value required, provide a dummy. Gets overridden when applied.
+            layerKey: dummy
+            parameterTexture: displacementMap
+            parameterUV: displacementUV
   - type: Speech
     speechVerb: Vox
     speechSounds: Vox

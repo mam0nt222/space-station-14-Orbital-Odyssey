@@ -28,9 +28,6 @@
   id: ATVKeys
 
 - type: Tag
-  id: BlobMob
-
-- type: Tag
   id: Baguette
 
 - type: Tag
@@ -262,10 +259,10 @@
   id: CableCoil
 
 - type: Tag
-  id: CannonBall
+  id: CaneBlade
 
 - type: Tag
-  id: CannonRestrict
+  id: CannonBall
 
 - type: Tag
   id: CannotSuicide
@@ -404,6 +401,9 @@
   id: ClownSuit
 
 - type: Tag
+  id: CluwneHappyHonk
+
+- type: Tag
   id: CluwneHorn
 
 - type: Tag
@@ -528,6 +528,9 @@
 
 - type: Tag
   id: DoorElectronics
+
+- type: Tag
+  id: DoorElectronicsConfigurator
 
 - type: Tag
   id: DrinkBottle
@@ -873,6 +876,9 @@
   id: Meat
 
 - type: Tag
+  id: Medal
+
+- type: Tag
   id: Medkit
 
 - type: Tag
@@ -983,8 +989,8 @@
 - type: Tag
   id: Pizza
 
-- type: Tag
-  id: PlantAnalyzer
+#- type: Tag
+#  id: PlantAnalyzer
 
 - type: Tag
   id: PlantBGone
@@ -1111,13 +1117,13 @@
   id: Shiv
 
 - type: Tag
-  id: ShoesRequiredStepTriggerImmune
-
-- type: Tag
   id: Shovel
 
 - type: Tag
   id: Sidearm
+
+- type: Tag
+  id: SignalTrigger
 
 - type: Tag
   id: SkeletonMotorcycleKeys
@@ -1133,9 +1139,6 @@
 
 - type: Tag
   id: Smokable
-
-- type: Tag
-  id: SnapPop
 
 - type: Tag
   id: SnowyLabs
@@ -1189,7 +1192,7 @@
 
 - type: Tag
   id: SuitEVA
-  
+
 - type: Tag
   id: Sunglasses
 
@@ -1248,6 +1251,9 @@
   id: TrashBag
 
 - type: Tag
+  id: Truncheon
+
+- type: Tag
   id: Unimplantable
 
 - type: Tag
@@ -1285,6 +1291,9 @@
 
 - type: Tag
   id: WeaponShotgunKammerer
+
+- type: Tag
+  id: WeldingMask
 
 - type: Tag
   id: WetFloorSign
@@ -1329,8 +1338,6 @@
   id: WriteIgnoreStamps
 
 
-
 #Orbitalodyssey
 - type: Tag
   id: MobVaporeon
-

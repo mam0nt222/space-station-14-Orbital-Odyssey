@@ -80,15 +80,15 @@ public sealed class PlantAnalyzerSystem : EntitySystem
 
     private void OpenUserInterface(EntityUid user, EntityUid analyzer)
     {
-        if (!TryComp<ActorComponent>(user, out var actor) || !_uiSystem.TryGetUi(analyzer, PlantAnalyzerUiKey.Key, out var ui))
+        if (!_uiSystem.HasUi(analyzer, PlantAnalyzerUiKey.Key))
             return;
 
-        _uiSystem.OpenUi(ui, actor.PlayerSession);
+        _uiSystem.OpenUi(analyzer, PlantAnalyzerUiKey.Key, user);
     }
 
     public void UpdateScannedUser(Entity<PlantAnalyzerComponent> ent, EntityUid target)
     {
-        if (!_uiSystem.TryGetUi(ent, PlantAnalyzerUiKey.Key, out var ui))
+        if (!_uiSystem.HasUi(ent, PlantAnalyzerUiKey.Key))
             return;
 
         TryComp<PlantHolderComponent>(target, out var plantcomp);
@@ -100,13 +100,13 @@ public sealed class PlantAnalyzerSystem : EntitySystem
             {
                 var seedData = seedcomponent.Seed;
                 var state = ObtainingGeneDataSeed(seedData, target, false, ent.Comp.Settings.AdvancedScan);
-                _uiSystem.SendUiMessage(ui, state);
+                _uiSystem.ServerSendUiMessage(target, PlantAnalyzerUiKey.Key, state);
             }
             else if (seedcomponent.SeedId != null && _prototypeManager.TryIndex(seedcomponent.SeedId, out SeedPrototype? protoSeed))
             {
                 var seedProtoId = protoSeed;
-                var state = ObtainingGeneDataSeedProt(protoSeed, target, ent.Comp.Settings.AdvancedScan);
-                _uiSystem.SendUiMessage(ui, state);
+                var state = ObtainingGeneDataSeedProt(seedProtoId, target, ent.Comp.Settings.AdvancedScan);
+                _uiSystem.ServerSendUiMessage(target, PlantAnalyzerUiKey.Key, state);
             }
         }
         else if (plantcomp != null)
@@ -115,7 +115,7 @@ public sealed class PlantAnalyzerSystem : EntitySystem
             if (seedData != null)
             {
                 var state = ObtainingGeneDataSeed(seedData, target, true, ent.Comp.Settings.AdvancedScan);
-                _uiSystem.SendUiMessage(ui, state);
+                _uiSystem.ServerSendUiMessage(target, PlantAnalyzerUiKey.Key, state);
             }
         }
     }

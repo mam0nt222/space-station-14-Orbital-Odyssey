@@ -30,4 +30,6 @@ public enum SlotFlags
     BRA = 1 << 17,
     SOCKS = 1 << 18,
     All = ~NONE,
+
+    WITHOUT_POCKET = All & ~POCKET
 }

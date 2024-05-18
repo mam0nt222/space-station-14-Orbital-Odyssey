@@ -4,6 +4,7 @@ using Content.Server.Actions;
 using Content.Server.Atmos.Components;
 using Content.Server.Atmos.EntitySystems;
 using Content.Server.Backmen.Blob.Components;
+using Content.Server.Backmen.Blob.Roles;
 using Content.Server.Backmen.GameTicking.Rules.Components;
 using Content.Server.Chat.Managers;
 using Content.Server.Destructible;
@@ -299,7 +300,7 @@ public sealed class BlobObserverSystem : SharedBlobObserverSystem
         }
         var state = new BlobChemSwapBoundUserInterfaceState(blobCoreComponent.ChemСolors, observerComponent.SelectedChemId);
 
-        _uiSystem.TrySetUiState(uid, BlobChemSwapUiKey.Key, state);
+        _uiSystem.SetUiState(uid, BlobChemSwapUiKey.Key, state);
     }
 
     // TODO: This is very bad, but it is clearly better than invisible walls, let someone do better.

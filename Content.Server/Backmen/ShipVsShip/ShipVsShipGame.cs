@@ -3,6 +3,7 @@ using Content.Server.Backmen.Arrivals;
 using Content.Server.Backmen.RoleWhitelist;
 using Content.Server.Backmen.ShipVsShip.Components;
 using Content.Server.GameTicking;
+using Content.Server.GameTicking.Components;
 using Content.Server.GameTicking.Rules;
 using Content.Server.GameTicking.Rules.Components;
 using Content.Server.KillTracking;
@@ -35,8 +36,8 @@ namespace Content.Server.Backmen.ShipVsShip;
 
 public sealed class ShipVsShipGame : GameRuleSystem<ShipVsShipGameComponent>
 {
-    private ISawmill _sawmill = default!;
-    [Dependency] private readonly StationSystem _stationSystem = default!;
+    //private ISawmill _sawmill = default!;
+    //[Dependency] private readonly StationSystem _stationSystem = default!;
     [Dependency] private readonly WhitelistSystem _whitelistSystem = default!;
     [Dependency] private readonly StationJobsSystem _stationJobs = default!;
     [Dependency] private readonly ISharedPlayerManager _playerManager = default!;
@@ -51,9 +52,6 @@ public sealed class ShipVsShipGame : GameRuleSystem<ShipVsShipGameComponent>
     public override void Initialize()
     {
         base.Initialize();
-        _sawmill = Logger.GetSawmill("preset");
-
-        SubscribeLocalEvent<RoundStartAttemptEvent>(OnStartAttempt);
 
         SubscribeLocalEvent<RulePlayerSpawningEvent>(OnPlayersSpawned);
         SubscribeLocalEvent<PlayerBeforeSpawnEvent>(OnBeforeSpawn);
@@ -62,9 +60,14 @@ public sealed class ShipVsShipGame : GameRuleSystem<ShipVsShipGameComponent>
         SubscribeLocalEvent<LoadingMapsEvent>(OnLoadMap);
         SubscribeLocalEvent<FTLCompletedEvent>(OnAfterFtl);
         SubscribeLocalEvent<RoundStartedEvent>(OnStartRound);
-        SubscribeLocalEvent<RoundEndTextAppendEvent>(OnRoundEndText);
         SubscribeLocalEvent<CanHandleWithArrival>(CanUseArrivals);
         SubscribeLocalEvent<PlayerSpawnCompleteEvent>(OnAfterSpawning);
+    }
+
+    protected override void AppendRoundEndText(EntityUid uid, ShipVsShipGameComponent rule, GameRuleComponent gameRule,
+        ref RoundEndTextAppendEvent args)
+    {
+        args.AddLine(Loc.GetString($"svs-team-{rule.Winner ?? StationTeamMarker.Neutral}-lose", ("target",rule.WinnerTarget ?? EntityUid.Invalid)));
     }
 
     private void SetFlag(EntityUid ent, StationTeamMarker team)
@@ -134,18 +137,6 @@ public sealed class ShipVsShipGame : GameRuleSystem<ShipVsShipGameComponent>
         {
             ev.Cancel();
         }
-    }
-
-    private void OnRoundEndText(RoundEndTextAppendEvent ev)
-    {
-        var activeRules = QueryActiveRules();
-
-        while (activeRules.MoveNext(out _, out var rule, out _))
-        {
-            ev.AddLine(Loc.GetString($"svs-team-{rule.Winner ?? StationTeamMarker.Neutral}-lose", ("target",rule.WinnerTarget ?? EntityUid.Invalid)));
-        }
-
-
     }
 
     private void OnStartRound(RoundStartedEvent ev)
@@ -438,11 +429,6 @@ public sealed class ShipVsShipGame : GameRuleSystem<ShipVsShipGameComponent>
             GameTicker.SpawnPlayer(sess, ev.Profiles[player], station, job, false);
             // continue in OnBeforeSpawn
         }
-    }
-
-    private void OnStartAttempt(RoundStartAttemptEvent ev)
-    {
-        TryRoundStartAttempt(ev, Loc.GetString("svs-title"));
     }
 
     protected override void Started(EntityUid uid, ShipVsShipGameComponent rule, GameRuleComponent ruleGame, GameRuleStartedEvent args)

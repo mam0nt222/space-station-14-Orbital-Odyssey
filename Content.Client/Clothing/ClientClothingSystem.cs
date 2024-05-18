@@ -11,6 +11,7 @@ using Content.Shared.Item;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Client.ResourceManagement;
+using Robust.Shared.Serialization.Manager;
 using Robust.Shared.Serialization.TypeSerializers.Implementations;
 using Robust.Shared.Utility;
 using static Robust.Client.GameObjects.SpriteComponent;
@@ -49,6 +50,7 @@ public sealed class ClientClothingSystem : ClothingSystem
     };
 
     [Dependency] private readonly IResourceCache _cache = default!;
+    [Dependency] private readonly ISerializationManager _serialization = default!;
     [Dependency] private readonly InventorySystem _inventorySystem = default!;
 
     public override void Initialize()
@@ -91,10 +93,10 @@ public sealed class ClientClothingSystem : ClothingSystem
         {
             args.Sprite.LayerSetVisible(layer, false);
         }
-        if (args.Sprite.LayerMapTryGet(HumanoidVisualLayers.LegsMask, out var jumpsuitLayer))
-        {
-            args.Sprite.LayerSetVisible(jumpsuitLayer, clothing.HidePants);
-        }
+        //if (args.Sprite.LayerMapTryGet(HumanoidVisualLayers.LegsMask, out var jumpsuitLayer))
+        //{
+        //    args.Sprite.LayerSetVisible(jumpsuitLayer, clothing.HidePants);
+        //}
     }
 
     private void OnGetVisuals(EntityUid uid, ClothingComponent item, GetEquipmentVisualsEvent args)
@@ -265,10 +267,10 @@ public sealed class ClientClothingSystem : ClothingSystem
                 else
                     sprite.LayerSetVisible(suitLayer, false);
             }
-            if (sprite.LayerMapTryGet(HumanoidVisualLayers.LegsMask, out var jumpsuitLayer))
-            {
-                sprite.LayerSetVisible(jumpsuitLayer, clothingComponent.HidePants);
-            }
+            //if (sprite.LayerMapTryGet(HumanoidVisualLayers.LegsMask, out var jumpsuitLayer))
+            //{
+            //    sprite.LayerSetVisible(jumpsuitLayer, clothingComponent.HidePants);
+            //}
         }
 
         if (!_inventorySystem.TryGetSlot(equipee, slot, out var slotDef, inventory))
@@ -302,6 +304,7 @@ public sealed class ClientClothingSystem : ClothingSystem
         // temporary, until layer draw depths get added. Basically: a layer with the key "slot" is being used as a
         // bookmark to determine where in the list of layers we should insert the clothing layers.
         bool slotLayerExists = sprite.LayerMapTryGet(slot, out var index);
+        var displacementData = inventory.Displacements.GetValueOrDefault(slot);
 
         // add the new layers
         foreach (var (key, layerData) in ev.Layers)
@@ -345,6 +348,28 @@ public sealed class ClientClothingSystem : ClothingSystem
 
             sprite.LayerSetData(index, layerData);
             layer.Offset += slotDef.Offset;
+
+            if (displacementData != null)
+            {
+                if (displacementData.ShaderOverride != null)
+                    sprite.LayerSetShader(index, displacementData.ShaderOverride);
+
+                var displacementKey = $"{key}-displacement";
+                if (!revealedLayers.Add(displacementKey))
+                {
+                    Log.Warning($"Duplicate key for clothing visuals DISPLACEMENT: {displacementKey}.");
+                    continue;
+                }
+
+                var displacementLayer = _serialization.CreateCopy(displacementData.Layer, notNullableOverride: true);
+                displacementLayer.CopyToShaderParameters!.LayerKey = key;
+
+                // Add before main layer for this item.
+                sprite.AddLayer(displacementLayer, index);
+                sprite.LayerMapSet(displacementKey, index);
+
+                revealedLayers.Add(displacementKey);
+            }
         }
 
         RaiseLocalEvent(equipment, new EquipmentVisualsUpdatedEvent(equipee, slot, revealedLayers), true);

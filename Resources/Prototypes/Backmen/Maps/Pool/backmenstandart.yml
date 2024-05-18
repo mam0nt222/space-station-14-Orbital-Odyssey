@@ -1,8 +1,8 @@
 - type: gameMapPool
   id: BackmenDefaultMapPool
   maps:
-  - CorvaxSilly
   - BackmenAspid
+  - BackmenKettle
   - Tortuga
   - TheHive
   - Shoukou
@@ -17,3 +17,4 @@
   - Bagel
   - Train
   - CorvaxSplit
+  - Oasis

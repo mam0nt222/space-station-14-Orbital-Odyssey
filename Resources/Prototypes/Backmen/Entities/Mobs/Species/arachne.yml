@@ -118,11 +118,11 @@
   - type: Tag
     tags:
     - CanPilot
-    - ShoesRequiredStepTriggerImmune
     - DoorBumpOpener
+  - type: ClothingRequiredStepTriggerImmune
+    slots: WITHOUT_POCKET
   - type: Bloodstream
     bloodReagent: DemonsBlood
-    webRequired: true
   - type: BloodSucker
     webRequired: true
   - type: Arachne

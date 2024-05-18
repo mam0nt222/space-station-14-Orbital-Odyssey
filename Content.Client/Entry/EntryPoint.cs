@@ -133,8 +133,10 @@ namespace Content.Client.Entry
             _prototypeManager.RegisterIgnore("npcConversationTree");
             _prototypeManager.RegisterIgnore("shipwreckDestination");
             _prototypeManager.RegisterIgnore("shipwreckFaction");
-            _prototypeManager.RegisterIgnore("loadout");
+            _prototypeManager.RegisterIgnore("bkmloadout");
+            _prototypeManager.RegisterIgnore("specForceTeam");
             // End Backmen.
+            _prototypeManager.RegisterIgnore("ghostRoleRaffleDecider");
 
             _componentFactory.GenerateNetIds();
             _adminManager.Initialize();
