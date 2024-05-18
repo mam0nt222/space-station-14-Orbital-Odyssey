@@ -108,9 +108,10 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<ServerApi>().Initialize();
 
                 // start-backmen: IoC
-                IoCManager.Resolve<Content.Corvax.Interfaces.Server.IServerSponsorsManager>().Initialize();
+                IoCManager.Resolve<Content.Corvax.Interfaces.Shared.ISharedSponsorsManager>().Initialize();
                 IoCManager.Resolve<Content.Corvax.Interfaces.Server.IServerDiscordAuthManager>().Initialize();
                 IoCManager.Resolve<Content.Corvax.Interfaces.Server.IServerJoinQueueManager>().Initialize();
+                IoCManager.Resolve<Content.Corvax.Interfaces.Shared.ISharedLoadoutsManager>().Initialize();
                 // end-backmen: IoC
 
                 _voteManager.Initialize();
